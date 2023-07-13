@@ -1,8 +1,8 @@
 {
     "schema": "devcap1.schema.json",
     "uuid": "353f983e-1616-47fe-a207-e8651d6836d5",
-    "version": "1.0.0",
-    "version_deconz": ">2.21.0",
+    "version": "1.1.0",
+    "version_deconz": ">2.22.0",
     "manufacturername": [
         "$MF_IKEA",
         "$MF_IKEA"
