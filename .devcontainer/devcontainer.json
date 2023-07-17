@@ -23,7 +23,8 @@
 				"esbenp.prettier-vscode",
 				"Tobermory.es6-string-html",
 				"mhutchie.git-graph",
-				"eamodio.gitlens"
+				"eamodio.gitlens",
+				"GitHub.copilot"
 			]
 		}
 	},
