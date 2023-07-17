@@ -24,7 +24,8 @@
 				"Tobermory.es6-string-html",
 				"mhutchie.git-graph",
 				"eamodio.gitlens",
-				"GitHub.copilot"
+				"GitHub.copilot",
+				"GitHub.copilot-chat"
 			]
 		}
 	},
