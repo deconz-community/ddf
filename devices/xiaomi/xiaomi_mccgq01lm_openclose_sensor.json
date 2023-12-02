@@ -1,8 +1,5 @@
 {
   "schema": "devcap1.schema.json",
-  "uuid": "138723d7-69b7-4358-a24f-2dcd89770ff1",
-  "version": "2.1.0",
-  "version_deconz": ">2.22.0",
   "manufacturername": "$MF_LUMI",
   "modelid": "lumi.sensor_magnet",
   "vendor": "Xiaomi",
@@ -72,7 +69,7 @@
         },
         {
           "name": "state/open",
-          "parse": {"fn": "zcl", "ep": 1, "cl": "0x0006", "at": "0x0000", "eval": "Item.val = Attr.val != 0"}
+          "parse": {"fn": "zcl:attr", "ep": 1, "cl": "0x0006", "at": "0x0000", "eval": "Item.val = Attr.val != 0"}
         }
       ]
     }

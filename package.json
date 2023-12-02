@@ -1,4 +1,12 @@
 {
   "name": "@deconz-community/ddf",
-  "private": true
+  "private": true,
+  "packageManager": "pnpm@8.11.0",
+  "scripts": {
+    "download": "rimraf ./devices && degit dresden-elektronik/deconz-rest-plugin /tmp/devices && mv /tmp/devices/devices ./devices && rimraf /tmp/devices"
+  },
+  "devDependencies": {
+    "degit": "^2.8.4",
+    "rimraf": "^5.0.5"
+  }
 }

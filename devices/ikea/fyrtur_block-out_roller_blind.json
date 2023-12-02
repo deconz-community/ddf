@@ -1,8 +1,5 @@
 {
-  "schema": "devcap1.schema.json",  
-  "uuid": "b1a51fb1-5147-42e5-a811-c0eda479a07d",
-  "version": "1.0.0",
-  "version_deconz": ">2.22.0",
+  "schema": "devcap1.schema.json",
   "manufacturername": "$MF_IKEA",
   "modelid": "FYRTUR block-out roller blind",
   "vendor": "IKEA of Sweden",
@@ -51,11 +48,11 @@
         {
           "name": "state/open",
           "parse": {
-            "fn": "zcl",
+            "fn": "zcl:attr",
             "ep": 1,
             "cl": "0x0102",
             "at": "0x0008",
-            "eval": "Item.val = Attr.val === 0"
+            "eval": "Item.val = Attr.val < 100"
           },
           "read": {
             "fn": "none"
@@ -128,7 +125,7 @@
           "name": "state/battery",
           "refresh.interval": 3700,
           "parse": {
-            "fn": "zcl",
+            "fn": "zcl:attr",
             "ep": 1,
             "cl": "0x0001",
             "at": "0x0021",

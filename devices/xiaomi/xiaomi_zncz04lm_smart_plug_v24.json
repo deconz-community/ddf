@@ -1,8 +1,5 @@
 {
   "schema": "devcap1.schema.json",
-  "uuid": "deab7d64-dc58-462d-a8af-ff477d9b4aa3",
-  "version": "2.1.0",
-  "version_deconz": ">2.22.0",
   "manufacturername": "$MF_LUMI",
   "modelid": "lumi.plug.mmeu01",
   "vendor": "Xiaomi",
@@ -157,7 +154,7 @@
             "at": "0x0055",
             "cl": "0x000C",
             "ep": 21,
-            "fn": "zcl"
+            "fn": "zcl:attr"
           },
           "parse": {
             "at": "0x0055",
@@ -250,7 +247,7 @@
             "at": "0x0055",
             "cl": "0x000C",
             "ep": 31,
-            "fn": "zcl"
+            "fn": "zcl:attr"
           },
           "parse": {
             "at": "0x0055",

@@ -1,8 +1,5 @@
 {
     "schema": "devcap1.schema.json",
-    "uuid": "10df3cf4-991b-41e1-8fa7-206e288c18a2",
-    "version": "2.1.0",
-    "version_deconz": ">2.22.0",
     "manufacturername": "$MF_LUTRON",
     "modelid": "Z3-1BRL",
     "product": "Aurora",

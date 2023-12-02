@@ -1,8 +1,5 @@
 {
   "schema": "devcap1.schema.json",
-  "uuid": "c0169537-7566-4716-9d9a-9b7c9f3fc1a4",
-  "version": "2.1.0",
-  "version_deconz": ">2.22.0",
   "manufacturername": "$MF_IKEA",
   "modelid": "SYMFONISK sound remote gen2",
   "product": "SYMFONISK sound remote gen2 - E2123",
