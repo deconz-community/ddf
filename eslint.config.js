@@ -17,12 +17,9 @@ export default await antfu(
 
     // `.eslintignore` is no longer supported in Flat config, use `ignores` instead
     ignores: [
-      '.history',
-      '.vscode',
-      '.coverage',
-      'dist',
+      'devices',
       'node_modules',
-      'test-data',
+      'generic',
     ],
 
   },
