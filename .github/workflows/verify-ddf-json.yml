@@ -6,15 +6,15 @@ name: Verify DDF JSON
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: [ main ]
+    branches: [main]
     paths:
-    - 'devices/*/*\.json'
-    - 'devices/generic/*/*\.json'
+      - 'devices/*/*\.json'
+      - 'generic/*/*\.json'
   pull_request:
-    branches: [ main ]
+    branches: [main]
     paths:
-    - 'devices/*/*\.json'
-    - 'devices/generic/*/*\.json'
+      - 'devices/*/*\.json'
+      - 'generic/*/*\.json'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -35,5 +35,5 @@ jobs:
       - uses: deconz-community/ddf-validator-action@v1
         with:
           directory: devices
-          generic: devices/generic
+          generic: generic
           search: '**/*.json'
