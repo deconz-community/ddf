@@ -1,7 +1,13 @@
 {
   "schema": "devcap1.schema.json",
-  "manufacturername": ["_TZE200_m9skfctm","_TZE200_vzekyi4c"],
-  "modelid": ["TS0601","TS0601"],
+  "manufacturername": [
+    "_TZE200_m9skfctm",
+    "_TZE200_vzekyi4c"
+  ],
+  "modelid": [
+    "TS0601",
+    "TS0601"
+  ],
   "vendor": "Tuya",
   "product": "Photoelectric Smoke sensor",
   "sleeper": true,
@@ -36,8 +42,19 @@
         },
         {
           "name": "attr/swversion",
-          "parse": {"fn": "zcl:attr", "ep": 1, "cl": "0x0000", "at": "0x0001", "script": "tuya_swversion.js"},
-          "read": {"fn": "zcl:attr", "ep": 1, "cl": "0x0000", "at": "0x0001"}
+          "parse": {
+            "fn": "zcl:attr",
+            "ep": 1,
+            "cl": "0x0000",
+            "at": "0x0001",
+            "script": "tuya_swversion.js"
+          },
+          "read": {
+            "fn": "zcl:attr",
+            "ep": 1,
+            "cl": "0x0000",
+            "at": "0x0001"
+          }
         },
         {
           "name": "attr/type"
@@ -121,5 +138,8 @@
       "src.ep": 1,
       "cl": "0xEF00"
     }
-  ]
+  ],
+  "uuid": "0c5d20f1-37fc-4b28-b5f5-f9679a09abad",
+  "version": "1.0.0",
+  "version_deconz": ">2.19.3"
 }

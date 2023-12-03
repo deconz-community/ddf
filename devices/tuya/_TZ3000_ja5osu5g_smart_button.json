@@ -36,8 +36,19 @@
         },
         {
           "name": "attr/swversion",
-          "parse": {"fn": "zcl:attr", "ep": 1, "cl": "0x0000", "at": "0x0001", "script": "tuya_swversion.js"},
-          "read": {"fn": "zcl:attr", "ep": 1, "cl": "0x0000", "at": "0x0001"}
+          "parse": {
+            "fn": "zcl:attr",
+            "ep": 1,
+            "cl": "0x0000",
+            "at": "0x0001",
+            "script": "tuya_swversion.js"
+          },
+          "read": {
+            "fn": "zcl:attr",
+            "ep": 1,
+            "cl": "0x0000",
+            "at": "0x0001"
+          }
         },
         {
           "name": "attr/type"
@@ -46,15 +57,19 @@
           "name": "attr/uniqueid"
         },
         {
-            "name": "config/battery",
-            "parse": {
-                "ep": 1, "cl": "0x0001", "at": "0x0021",
-                "eval": "Item.val = Attr.val / 2"
-            },
-            "read": {
-                "ep": 1, "cl": "0x0001", "at": "0x0021"
-            },
-            "refresh.interval": 7300
+          "name": "config/battery",
+          "parse": {
+            "ep": 1,
+            "cl": "0x0001",
+            "at": "0x0021",
+            "eval": "Item.val = Attr.val / 2"
+          },
+          "read": {
+            "ep": 1,
+            "cl": "0x0001",
+            "at": "0x0021"
+          },
+          "refresh.interval": 7300
         },
         {
           "name": "config/on"
@@ -96,5 +111,8 @@
       "dst.ep": 1,
       "cl": "0x0006"
     }
-  ]
+  ],
+  "uuid": "0e162713-2745-4678-9f8d-2a0e53079b4b",
+  "version": "1.0.0",
+  "version_deconz": ">2.19.3"
 }

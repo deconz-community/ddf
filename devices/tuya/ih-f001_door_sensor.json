@@ -46,8 +46,19 @@
         },
         {
           "name": "attr/swversion",
-          "parse": {"fn": "zcl:attr", "ep": 1, "cl": "0x0000", "at": "0x0001", "script": "tuya_swversion.js"},
-          "read": {"fn": "zcl:attr", "ep": 1, "cl": "0x0000", "at": "0x0001"}
+          "parse": {
+            "fn": "zcl:attr",
+            "ep": 1,
+            "cl": "0x0000",
+            "at": "0x0001",
+            "script": "tuya_swversion.js"
+          },
+          "read": {
+            "fn": "zcl:attr",
+            "ep": 1,
+            "cl": "0x0000",
+            "at": "0x0001"
+          }
         },
         {
           "name": "attr/type"
@@ -109,5 +120,8 @@
       "dst.ep": 1,
       "cl": "0x0500"
     }
-  ]
+  ],
+  "uuid": "ab97d9b0-b279-4d1c-8afe-80973506d993",
+  "version": "1.0.0",
+  "version_deconz": ">2.19.3"
 }

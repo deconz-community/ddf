@@ -54,7 +54,7 @@
           "name": "attr/uniqueid"
         },
         {
-           "name":"state/tampered"
+          "name": "state/tampered"
         },
         {
           "name": "config/checkin"
@@ -145,7 +145,7 @@
           "name": "attr/uniqueid"
         },
         {
-           "name":"state/tampered"
+          "name": "state/tampered"
         },
         {
           "name": "config/checkin"
@@ -220,5 +220,8 @@
         }
       ]
     }
-  ]
+  ],
+  "uuid": "254d3b67-1a19-4889-81ff-280631fc6698",
+  "version": "1.0.0",
+  "version_deconz": ">2.19.3"
 }

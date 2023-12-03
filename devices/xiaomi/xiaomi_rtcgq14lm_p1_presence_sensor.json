@@ -106,7 +106,10 @@
             "mf": "0x115F",
             "state.timeout": 2
           },
-          "range": [1, 200],
+          "range": [
+            1,
+            200
+          ],
           "default": 30
         },
         {
@@ -140,8 +143,14 @@
             "state.timeout": 2
           },
           "values": [
-            [true, "Device flashes on presence"],
-            [false, "Device gives no visual feedback on presence"]
+            [
+              true,
+              "Device flashes on presence"
+            ],
+            [
+              false,
+              "Device gives no visual feedback on presence"
+            ]
           ],
           "default": false
         },
@@ -182,9 +191,18 @@
             "state.timeout": 2
           },
           "values": [
-            [1, "Low"],
-            [2, "Medium"],
-            [3, "High"]
+            [
+              1,
+              "Low"
+            ],
+            [
+              2,
+              "Medium"
+            ],
+            [
+              3,
+              "High"
+            ]
           ],
           "default": 3
         },
@@ -307,8 +325,14 @@
             "state.timeout": 2
           },
           "values": [
-            [true, "Device flashes on presence"],
-            [false, "Device gives no visual feedback on presence"]
+            [
+              true,
+              "Device flashes on presence"
+            ],
+            [
+              false,
+              "Device gives no visual feedback on presence"
+            ]
           ],
           "default": false
         },
@@ -351,5 +375,8 @@
         }
       ]
     }
-  ]
+  ],
+  "uuid": "40a9501c-d74b-4809-8f18-5fd660662a70",
+  "version": "1.0.0",
+  "version_deconz": ">2.19.3"
 }

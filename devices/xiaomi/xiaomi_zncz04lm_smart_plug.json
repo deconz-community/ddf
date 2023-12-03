@@ -8,7 +8,9 @@
   "status": "Gold",
   "comment": "DDF for device firmwares equal or below 0.0.0_0022",
   "matchexpr": "(R.endpoints.indexOf(0x15) !== -1) && (R.endpoints.indexOf(0x16) !== -1);",
-  "md:known_issues": [ "xiaomi_known_issues_plugfw.md" ],
+  "md:known_issues": [
+    "xiaomi_known_issues_plugfw.md"
+  ],
   "subdevices": [
     {
       "type": "$TYPE_SMART_PLUG",
@@ -276,5 +278,8 @@
         }
       ]
     }
-  ]
+  ],
+  "uuid": "bdf43663-9b1c-4225-ae10-f4f09b31aeaa",
+  "version": "1.0.0",
+  "version_deconz": ">2.19.3"
 }

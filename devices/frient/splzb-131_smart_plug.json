@@ -1,7 +1,15 @@
 {
   "schema": "devcap1.schema.json",
-  "manufacturername": ["frient A/S", "frient A/S", "frient A/S"],
-  "modelid": ["SPLZB-131", "SPLZB-134", "SPLZB-141"],
+  "manufacturername": [
+    "frient A/S",
+    "frient A/S",
+    "frient A/S"
+  ],
+  "modelid": [
+    "SPLZB-131",
+    "SPLZB-134",
+    "SPLZB-141"
+  ],
   "product": "SPLZB-131, SPLZB-134 and SPLZB-141 smart plug",
   "sleeper": false,
   "status": "Gold",
@@ -327,5 +335,8 @@
         }
       ]
     }
-  ]
+  ],
+  "uuid": "841e47e2-ca0c-4322-b0ed-23e5da899950",
+  "version": "1.0.0",
+  "version_deconz": ">2.19.3"
 }

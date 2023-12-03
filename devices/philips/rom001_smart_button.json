@@ -189,5 +189,8 @@
       "cl": "0x0008",
       "config.group": 0
     }
-  ]
+  ],
+  "uuid": "2ba402d3-415c-42b5-ac66-e3c1734f19a2",
+  "version": "1.0.0",
+  "version_deconz": ">2.19.3"
 }

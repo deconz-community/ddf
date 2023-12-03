@@ -109,8 +109,14 @@
             "mf": "0x115F"
           },
           "values": [
-            [true, "Initiate self-test"],
-            [false, "Self-test not initiated"]
+            [
+              true,
+              "Initiate self-test"
+            ],
+            [
+              false,
+              "Self-test not initiated"
+            ]
           ]
         },
         {
@@ -142,9 +148,18 @@
             "mf": "0x115F"
           },
           "values": [
-            [0, "Low"],
-            [1, "Medium"],
-            [2, "High"]
+            [
+              0,
+              "Low"
+            ],
+            [
+              1,
+              "Medium"
+            ],
+            [
+              2,
+              "High"
+            ]
           ],
           "default": 1
         },
@@ -166,5 +181,8 @@
         }
       ]
     }
-  ]
+  ],
+  "uuid": "a7b435cb-0651-4eca-b729-8a4724f4e4d0",
+  "version": "1.0.0",
+  "version_deconz": ">2.19.3"
 }

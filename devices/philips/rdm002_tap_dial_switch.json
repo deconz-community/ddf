@@ -22,16 +22,16 @@
       ],
       "buttons": {
         "1": {
-          "name": "\u2024"
+          "name": "․"
         },
         "2": {
-          "name": "\u2025"
+          "name": "‥"
         },
         "3": {
-          "name": "\u2056"
+          "name": "⁖"
         },
         "4": {
-          "name": "\u2058"
+          "name": "⁘"
         }
       },
       "buttonevents": {
@@ -287,5 +287,8 @@
         }
       ]
     }
-  ]
+  ],
+  "uuid": "3e8edbfc-c46e-46e8-a887-6eab728f60f9",
+  "version": "1.0.0",
+  "version_deconz": ">2.19.3"
 }

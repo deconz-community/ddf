@@ -35,8 +35,19 @@
         },
         {
           "name": "attr/swversion",
-          "parse": {"fn": "zcl:attr", "ep": 1, "cl": "0x0000", "at": "0x0001", "script": "tuya_swversion.js"},
-          "read": {"fn": "zcl:attr", "ep": 1, "cl": "0x0000", "at": "0x0001"}
+          "parse": {
+            "fn": "zcl:attr",
+            "ep": 1,
+            "cl": "0x0000",
+            "at": "0x0001",
+            "script": "tuya_swversion.js"
+          },
+          "read": {
+            "fn": "zcl:attr",
+            "ep": 1,
+            "cl": "0x0000",
+            "at": "0x0001"
+          }
         },
         {
           "name": "attr/type"
@@ -56,14 +67,26 @@
         },
         {
           "name": "state/humidity",
-          "parse": {"fn": "tuya", "dpid": 2, "eval": "Item.val = 10 * Attr.val + R.item('config/offset').val;" },
-          "read": {"fn": "tuya"},
+          "parse": {
+            "fn": "tuya",
+            "dpid": 2,
+            "eval": "Item.val = 10 * Attr.val + R.item('config/offset').val;"
+          },
+          "read": {
+            "fn": "tuya"
+          },
           "default": 0
         },
         {
           "name": "config/battery",
-          "parse": {"fn": "tuya", "dpid": 4, "eval": "Item.val = Attr.val;" },
-          "read": {"fn": "none"},
+          "parse": {
+            "fn": "tuya",
+            "dpid": 4,
+            "eval": "Item.val = Attr.val;"
+          },
+          "read": {
+            "fn": "none"
+          },
           "default": 0
         },
         {
@@ -100,8 +123,19 @@
         },
         {
           "name": "attr/swversion",
-          "parse": {"fn": "zcl:attr", "ep": 1, "cl": "0x0000", "at": "0x0001", "script": "tuya_swversion.js"},
-          "read": {"fn": "zcl:attr", "ep": 1, "cl": "0x0000", "at": "0x0001"}
+          "parse": {
+            "fn": "zcl:attr",
+            "ep": 1,
+            "cl": "0x0000",
+            "at": "0x0001",
+            "script": "tuya_swversion.js"
+          },
+          "read": {
+            "fn": "zcl:attr",
+            "ep": 1,
+            "cl": "0x0000",
+            "at": "0x0001"
+          }
         },
         {
           "name": "attr/type"
@@ -115,8 +149,14 @@
         },
         {
           "name": "config/battery",
-          "parse": {"fn": "tuya", "dpid": 4, "eval": "Item.val = Attr.val;" },
-          "read": {"fn": "none"},
+          "parse": {
+            "fn": "tuya",
+            "dpid": 4,
+            "eval": "Item.val = Attr.val;"
+          },
+          "read": {
+            "fn": "none"
+          },
           "default": 0
         },
         {
@@ -130,11 +170,20 @@
         },
         {
           "name": "state/temperature",
-          "parse": {"fn": "tuya", "dpid": 1, "eval": "Item.val = 10 * Attr.val + R.item('config/offset').val;" },
-          "read": {"fn": "none"},
+          "parse": {
+            "fn": "tuya",
+            "dpid": 1,
+            "eval": "Item.val = 10 * Attr.val + R.item('config/offset').val;"
+          },
+          "read": {
+            "fn": "none"
+          },
           "default": 0
         }
       ]
     }
-  ]
+  ],
+  "uuid": "134668f8-7d5d-440e-b593-9842d738a6d0",
+  "version": "1.0.0",
+  "version_deconz": ">2.19.3"
 }

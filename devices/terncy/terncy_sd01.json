@@ -1,12 +1,20 @@
 {
   "schema": "devcap1.schema.json",
-  "manufacturername": ["Xiaoyan", "TERNCY"],
-  "modelid": ["TERNCY-SD01", "TERNCY-SD01"],
+  "manufacturername": [
+    "Xiaoyan",
+    "TERNCY"
+  ],
+  "modelid": [
+    "TERNCY-SD01",
+    "TERNCY-SD01"
+  ],
   "vendor": "Terncy",
   "product": "Terncy Smart Dial SD01",
   "sleeper": true,
   "status": "Gold",
-  "md:known_issues": [ "terncy_sd01_known_issues.md" ],
+  "md:known_issues": [
+    "terncy_sd01_known_issues.md"
+  ],
   "subdevices": [
     {
       "type": "$TYPE_SWITCH",
@@ -114,5 +122,8 @@
         }
       ]
     }
-  ]
+  ],
+  "uuid": "d54a75b2-3460-458a-919f-dbef7b1e4b3c",
+  "version": "1.0.0",
+  "version_deconz": ">2.19.3"
 }

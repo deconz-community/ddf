@@ -51,7 +51,12 @@
             "ep": 1,
             "eval": "const vmin = 2000; const vmax = 3000; let bat = Attr.val; if (bat > vmax) { bat = vmax; } else if (bat < vmin) { bat = vmin; } bat = ((bat - vmin) / (vmax - vmin)) * 100; if (bat > 100) { bat = 100; } else if (bat <= 0)  { bat = 1; } Item.val = bat;"
           },
-          "read": {"fn": "zcl:attr", "ep": 1, "cl": "0x0001", "at": "0x0000"},
+          "read": {
+            "fn": "zcl:attr",
+            "ep": 1,
+            "cl": "0x0001",
+            "at": "0x0000"
+          },
           "refresh.interval": 3700,
           "default": 0
         },
@@ -117,7 +122,12 @@
             "ep": 1,
             "eval": "const vmin = 2000; const vmax = 3000; let bat = Attr.val; if (bat > vmax) { bat = vmax; } else if (bat < vmin) { bat = vmin; } bat = ((bat - vmin) / (vmax - vmin)) * 100; if (bat > 100) { bat = 100; } else if (bat <= 0)  { bat = 1; } Item.val = bat;"
           },
-          "read": {"fn": "zcl:attr", "ep": 1, "cl": "0x0001", "at": "0x0000"},
+          "read": {
+            "fn": "zcl:attr",
+            "ep": 1,
+            "cl": "0x0001",
+            "at": "0x0000"
+          },
           "refresh.interval": 3700,
           "default": 0
         },
@@ -183,5 +193,8 @@
         }
       ]
     }
-  ]
+  ],
+  "uuid": "beb4c58d-5eed-4f51-ada8-be793bdd266d",
+  "version": "1.0.0",
+  "version_deconz": ">2.19.3"
 }

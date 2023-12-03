@@ -1,7 +1,23 @@
 {
   "schema": "devcap1.schema.json",
-  "manufacturername": ["_TZ3000_gbm10jnj", "_TZ3000_sj7jbgks", "_TZ3000_w8jwkczz", "_TZ3000_famkxci2", "_TZ3000_w3c7ouru", "_TZ3000_yw5tvzsk", "_TZ3000_pkeqinnt"],
-  "modelid": ["TS0043", "TS0043", "TS0043", "TS0043", "TS0043", "TS0043", "TS0043"],
+  "manufacturername": [
+    "_TZ3000_gbm10jnj",
+    "_TZ3000_sj7jbgks",
+    "_TZ3000_w8jwkczz",
+    "_TZ3000_famkxci2",
+    "_TZ3000_w3c7ouru",
+    "_TZ3000_yw5tvzsk",
+    "_TZ3000_pkeqinnt"
+  ],
+  "modelid": [
+    "TS0043",
+    "TS0043",
+    "TS0043",
+    "TS0043",
+    "TS0043",
+    "TS0043",
+    "TS0043"
+  ],
   "product": "Tuya 3 gangs switch battery",
   "sleeper": false,
   "status": "Gold",
@@ -36,8 +52,19 @@
         {
           "name": "attr/swversion",
           "refresh.interval": 86400,
-          "parse": {"fn": "zcl:attr", "ep": 1, "cl": "0x0000", "at": "0x0001", "script": "tuya_swversion.js"},
-          "read": {"fn": "zcl:attr", "ep": 1, "cl": "0x0000", "at": "0x0001"}
+          "parse": {
+            "fn": "zcl:attr",
+            "ep": 1,
+            "cl": "0x0000",
+            "at": "0x0001",
+            "script": "tuya_swversion.js"
+          },
+          "read": {
+            "fn": "zcl:attr",
+            "ep": 1,
+            "cl": "0x0000",
+            "at": "0x0001"
+          }
         },
         {
           "name": "attr/type"
@@ -111,5 +138,8 @@
       "dst.ep": 1,
       "cl": "0x0006"
     }
-  ]
+  ],
+  "uuid": "6958a112-2946-4252-bda8-26dcd5fdf946",
+  "version": "1.0.0",
+  "version_deconz": ">2.19.3"
 }

@@ -1,7 +1,13 @@
 {
   "schema": "devcap1.schema.json",
-  "manufacturername": ["SONOFF", "SONOFF"],
-  "modelid": ["ZBMINI-L", "ZBMINIL2"],
+  "manufacturername": [
+    "SONOFF",
+    "SONOFF"
+  ],
+  "modelid": [
+    "ZBMINI-L",
+    "ZBMINIL2"
+  ],
   "product": "ZBMINI-L or ZBMINIL2",
   "sleeper": false,
   "status": "Gold",
@@ -65,5 +71,8 @@
         }
       ]
     }
-  ]
+  ],
+  "uuid": "868bf9b6-6e14-47ef-a066-46f858aafa06",
+  "version": "1.0.0",
+  "version_deconz": ">2.19.3"
 }

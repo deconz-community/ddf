@@ -104,8 +104,8 @@
       ]
     }
   ],
-"bindings": [
-   {
+  "bindings": [
+    {
       "bind": "unicast",
       "src.ep": 1,
       "cl": "0x0006",
@@ -118,5 +118,8 @@
         }
       ]
     }
-  ]
+  ],
+  "uuid": "dd483f8d-3352-4164-870a-a0381cbdb455",
+  "version": "1.0.0",
+  "version_deconz": ">2.19.3"
 }

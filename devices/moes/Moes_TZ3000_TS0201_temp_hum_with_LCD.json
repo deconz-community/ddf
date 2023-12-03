@@ -1,7 +1,13 @@
 {
   "schema": "devcap1.schema.json",
-  "manufacturername": ["_TZ3000_ywagc4rj","_TZ3000_itnrsufe"],
-  "modelid": ["TS0201","TS0201"],
+  "manufacturername": [
+    "_TZ3000_ywagc4rj",
+    "_TZ3000_itnrsufe"
+  ],
+  "modelid": [
+    "TS0201",
+    "TS0201"
+  ],
   "vendor": "Moes",
   "product": "TS0201",
   "sleeper": true,
@@ -208,5 +214,8 @@
         }
       ]
     }
-  ]
+  ],
+  "uuid": "c2857a1f-2c66-44c7-9498-77c203de0fbe",
+  "version": "1.0.0",
+  "version_deconz": ">2.19.3"
 }

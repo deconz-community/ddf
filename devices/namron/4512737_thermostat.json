@@ -1,7 +1,13 @@
 {
   "schema": "devcap1.schema.json",
-  "manufacturername": ["NAMRON AS", "NAMRON AS"],
-  "modelid": ["4512737", "4512738"],
+  "manufacturername": [
+    "NAMRON AS",
+    "NAMRON AS"
+  ],
+  "modelid": [
+    "4512737",
+    "4512738"
+  ],
   "product": "Thermostat Touch Zigbee 16A",
   "sleeper": false,
   "status": "Gold",
@@ -59,7 +65,7 @@
         },
         {
           "name": "config/mode",
-         "default": "off"
+          "default": "off"
         },
         {
           "name": "config/offset",
@@ -230,13 +236,13 @@
       ]
     }
   ],
-    "bindings": [
+  "bindings": [
     {
       "bind": "unicast",
       "src.ep": 1,
       "dst.ep": 1,
       "cl": "0x0201",
-     "report": [
+      "report": [
         {
           "at": "0x0000",
           "dt": "0x29",
@@ -275,5 +281,8 @@
         }
       ]
     }
-  ]
+  ],
+  "uuid": "d2e84d7c-e8df-4c81-9ea4-a0d41f9db06c",
+  "version": "1.0.0",
+  "version_deconz": ">2.19.3"
 }

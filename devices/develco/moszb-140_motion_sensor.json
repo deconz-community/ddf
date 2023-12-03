@@ -1,7 +1,13 @@
 {
   "schema": "devcap1.schema.json",
-  "manufacturername": ["Develco Products A/S", "Develco Products A/S"],
-  "modelid": ["MOSZB-130", "MOSZB-140"],
+  "manufacturername": [
+    "Develco Products A/S",
+    "Develco Products A/S"
+  ],
+  "modelid": [
+    "MOSZB-130",
+    "MOSZB-140"
+  ],
   "vendor": "Develco Products",
   "product": "MOSZB-130/140 motion sensor pro",
   "sleeper": true,
@@ -357,7 +363,10 @@
             "fn": "zcl:attr",
             "mf": "0x1015"
           },
-          "range": [20, 65535],
+          "range": [
+            20,
+            65535
+          ],
           "default": 20
         },
         {
@@ -805,5 +814,8 @@
         }
       ]
     }
-  ]
+  ],
+  "uuid": "fe03099a-9139-421a-8d66-5be9b91e3e35",
+  "version": "1.0.0",
+  "version_deconz": ">2.19.3"
 }

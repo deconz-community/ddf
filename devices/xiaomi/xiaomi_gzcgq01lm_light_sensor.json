@@ -2,12 +2,18 @@
   "schema": "devcap1.schema.json",
   "doc:path": "xiaomi/xiaomi_gzcgq01lm_light_sensor.md",
   "doc:hdr": "Light sensor GZCGQ01LM",
-  "manufacturername": ["$MF_XIAOMI", "$MF_LUMI"],
-  "modelid": ["lumi.sen_ill.mgl01", "lumi.sen_ill.mgl01"],
+  "manufacturername": [
+    "$MF_XIAOMI",
+    "$MF_LUMI"
+  ],
+  "modelid": [
+    "lumi.sen_ill.mgl01",
+    "lumi.sen_ill.mgl01"
+  ],
   "vendor": "Xiaomi",
   "product": "Mijia Light Sensor GZCGQ01LM",
   "status": "Gold",
-  "md:known_issues": [ ],
+  "md:known_issues": [],
   "sleeper": true,
   "subdevices": [
     {
@@ -148,5 +154,8 @@
         }
       ]
     }
-  ]
+  ],
+  "uuid": "cd01d926-7577-4416-a075-1cc92b0717c3",
+  "version": "1.0.0",
+  "version_deconz": ">2.19.3"
 }

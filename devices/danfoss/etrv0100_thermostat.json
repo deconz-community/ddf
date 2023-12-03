@@ -1,7 +1,13 @@
 {
   "schema": "devcap1.schema.json",
-  "manufacturername": ["Danfoss", "Danfoss"],
-  "modelid": ["eTRV0100", "eTRV0103"],
+  "manufacturername": [
+    "Danfoss",
+    "Danfoss"
+  ],
+  "modelid": [
+    "eTRV0100",
+    "eTRV0103"
+  ],
   "vendor": "Danfoss",
   "product": "Ally thermostat",
   "sleeper": false,
@@ -129,7 +135,10 @@
             "mf": "0x1246"
           },
           "values": [
-            [-8000, "Disabled"]
+            [
+              -8000,
+              "Disabled"
+            ]
           ],
           "default": -8000
         },
@@ -226,7 +235,10 @@
             "fn": "zcl:attr",
             "mf": "0x1246"
           },
-          "range": [-250, 250],
+          "range": [
+            -250,
+            250
+          ],
           "default": 0
         },
         {
@@ -537,5 +549,8 @@
         }
       ]
     }
-  ]
+  ],
+  "uuid": "a7aaaec3-cd11-4c10-99a6-7f0f29e7d54f",
+  "version": "1.0.0",
+  "version_deconz": ">2.19.3"
 }

@@ -1,7 +1,11 @@
 {
   "schema": "devcap1.schema.json",
-  "manufacturername": ["$MF_LUMI"],
-  "modelid": ["lumi.remote.cagl01"],
+  "manufacturername": [
+    "$MF_LUMI"
+  ],
+  "modelid": [
+    "lumi.remote.cagl01"
+  ],
   "vendor": "Xiaomi",
   "product": "Aqara T1 Cube MFKZQ11LM",
   "sleeper": true,
@@ -191,5 +195,8 @@
         }
       ]
     }
-  ]
+  ],
+  "uuid": "f9262085-43e9-4753-a66e-ed8c157e8b65",
+  "version": "1.0.0",
+  "version_deconz": ">2.19.3"
 }

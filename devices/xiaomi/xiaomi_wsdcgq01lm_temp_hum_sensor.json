@@ -69,7 +69,12 @@
         {
           "name": "config/battery",
           "awake": true,
-          "parse": {"fn": "xiaomi:special", "at": "0xff01", "idx": "0x01", "script": "xiaomi_battery.js"}
+          "parse": {
+            "fn": "xiaomi:special",
+            "at": "0xff01",
+            "idx": "0x01",
+            "script": "xiaomi_battery.js"
+          }
         },
         {
           "name": "config/offset",
@@ -156,7 +161,12 @@
         {
           "name": "config/battery",
           "awake": true,
-          "parse": {"fn": "xiaomi:special", "at": "0xff01", "idx": "0x01", "script": "xiaomi_battery.js"}
+          "parse": {
+            "fn": "xiaomi:special",
+            "at": "0xff01",
+            "idx": "0x01",
+            "script": "xiaomi_battery.js"
+          }
         },
         {
           "name": "config/offset",
@@ -181,5 +191,8 @@
         }
       ]
     }
-  ]
+  ],
+  "uuid": "f6624f82-ea7e-42b3-9082-ab1588afdcc5",
+  "version": "1.0.0",
+  "version_deconz": ">2.19.3"
 }

@@ -102,5 +102,8 @@
       "src.ep": 1,
       "cl": "0x0102"
     }
-  ]
+  ],
+  "uuid": "73ff6c56-368d-4748-8bd8-c6abebb4d7f3",
+  "version": "1.0.0",
+  "version_deconz": ">2.19.3"
 }

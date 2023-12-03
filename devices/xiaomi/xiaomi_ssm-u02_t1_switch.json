@@ -146,8 +146,14 @@
             "mf": "0x115f"
           },
           "values": [
-            ["\"momentary\"", "Momentary mode"],
-            ["\"rocker\"", "Rocker mode"] 
+            [
+              "\"momentary\"",
+              "Momentary mode"
+            ],
+            [
+              "\"rocker\"",
+              "Rocker mode"
+            ]
           ],
           "default": "rocker"
         },
@@ -179,8 +185,14 @@
             "mf": "0x115f"
           },
           "values": [
-            ["\"compatibility\"", "Default mode for Xiaomi devices"],
-            ["\"zigbee\"", "Closer to zigbee standard"] 
+            [
+              "\"compatibility\"",
+              "Default mode for Xiaomi devices"
+            ],
+            [
+              "\"zigbee\"",
+              "Closer to zigbee standard"
+            ]
           ],
           "default": "compatibility"
         },
@@ -198,5 +210,8 @@
         }
       ]
     }
-  ]
+  ],
+  "uuid": "0c3e7026-ccdb-4239-8e63-088ee8aa5562",
+  "version": "1.0.0",
+  "version_deconz": ">2.19.3"
 }

@@ -1,7 +1,13 @@
 {
   "schema": "devcap1.schema.json",
-  "manufacturername": ["$MF_LUMI", "$MF_LUMI"],
-  "modelid": ["lumi.sensor_cube", "lumi.sensor_cube.aqgl01"],
+  "manufacturername": [
+    "$MF_LUMI",
+    "$MF_LUMI"
+  ],
+  "modelid": [
+    "lumi.sensor_cube",
+    "lumi.sensor_cube.aqgl01"
+  ],
   "vendor": "Xiaomi",
   "product": "Aqara Cube MFKZQ01LM",
   "sleeper": true,
@@ -195,5 +201,8 @@
         }
       ]
     }
-  ]
+  ],
+  "uuid": "877e5369-3f69-4dff-a0df-b3b982433366",
+  "version": "1.0.0",
+  "version_deconz": ">2.19.3"
 }

@@ -1,7 +1,13 @@
 {
   "schema": "devcap1.schema.json",
-  "manufacturername": ["ubisys", "ubisys"],
-  "modelid": ["S1 (5501)", "S1-R (5601)"],
+  "manufacturername": [
+    "ubisys",
+    "ubisys"
+  ],
+  "modelid": [
+    "S1 (5501)",
+    "S1-R (5601)"
+  ],
   "vendor": "ubisys",
   "product": "S1 (5501) / S1-R (5601) power switch",
   "sleeper": false,
@@ -345,5 +351,8 @@
         }
       ]
     }
-  ]
+  ],
+  "uuid": "d8f19e20-0cea-4908-9a34-ef60d56a78fc",
+  "version": "1.0.0",
+  "version_deconz": ">2.19.3"
 }

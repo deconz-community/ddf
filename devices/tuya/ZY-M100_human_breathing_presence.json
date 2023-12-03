@@ -337,5 +337,8 @@
       "src.ep": 1,
       "cl": "0xEF00"
     }
-  ]
+  ],
+  "uuid": "f7baf0c7-4bd7-4beb-810b-beca6c236292",
+  "version": "1.0.0",
+  "version_deconz": ">2.19.3"
 }

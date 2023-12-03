@@ -204,8 +204,14 @@
             "mf": "0x115f"
           },
           "values": [
-            ["\"compatibility\"", "Default mode for Xiaomi devices"],
-            ["\"zigbee\"", "Closer to zigbee standard"] 
+            [
+              "\"compatibility\"",
+              "Default mode for Xiaomi devices"
+            ],
+            [
+              "\"zigbee\"",
+              "Closer to zigbee standard"
+            ]
           ],
           "default": "compatibility"
         },
@@ -237,8 +243,14 @@
             "mf": "0x115f"
           },
           "values": [
-            [true, "Device LED always on"],
-            [false, "Device LED off from 9pm - 9am"] 
+            [
+              true,
+              "Device LED always on"
+            ],
+            [
+              false,
+              "Device LED off from 9pm - 9am"
+            ]
           ],
           "default": true
         },
@@ -256,5 +268,8 @@
         }
       ]
     }
-  ]
+  ],
+  "uuid": "2a2c377b-6409-40ba-98e6-e5a3ce1edb5b",
+  "version": "1.0.0",
+  "version_deconz": ">2.19.3"
 }

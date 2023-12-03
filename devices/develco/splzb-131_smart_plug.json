@@ -247,8 +247,8 @@
           "name": "state/power",
           "refresh.interval": 360,
           "read": {
-            "at": "0x0400", 
-            "cl": "0x0702", 
+            "at": "0x0400",
+            "cl": "0x0702",
             "ep": 2,
             "fn": "zcl:attr"
           },
@@ -330,5 +330,8 @@
         }
       ]
     }
-  ]
+  ],
+  "uuid": "41bcaf66-9c35-4f3d-b0b1-aaa388b176fd",
+  "version": "1.0.0",
+  "version_deconz": ">2.19.3"
 }

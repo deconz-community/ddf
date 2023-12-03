@@ -1,4 +1,3 @@
-
 {
   "schema": "devcap1.schema.json",
   "manufacturername": "_TZE200_dq1mfjug",
@@ -46,8 +45,14 @@
         },
         {
           "name": "config/battery",
-          "parse": {"fn": "tuya", "dpid": 14, "eval": "Item.val = Attr.val * 50;" },
-          "read": {"fn": "none"},
+          "parse": {
+            "fn": "tuya",
+            "dpid": 14,
+            "eval": "Item.val = Attr.val * 50;"
+          },
+          "read": {
+            "fn": "none"
+          },
           "default": 0
         },
         {
@@ -64,8 +69,14 @@
         },
         {
           "name": "state/fire",
-          "parse": {"fn": "tuya", "dpid": 101, "eval": "Item.val = (Attr.val == 1);" },
-          "read": {"fn": "tuya"},
+          "parse": {
+            "fn": "tuya",
+            "dpid": 101,
+            "eval": "Item.val = (Attr.val == 1);"
+          },
+          "read": {
+            "fn": "tuya"
+          },
           "default": 0
         },
         {
@@ -73,5 +84,8 @@
         }
       ]
     }
-  ]
+  ],
+  "uuid": "0b96bef5-1536-4ca6-b160-68ad9d4e94f4",
+  "version": "1.0.0",
+  "version_deconz": ">2.19.3"
 }

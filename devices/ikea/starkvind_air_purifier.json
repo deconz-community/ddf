@@ -330,7 +330,6 @@
         "$address.ext",
         "0x01",
         "0x042a"
-
       ],
       "fingerprint": {
         "endpoint": "0x01",
@@ -557,5 +556,8 @@
         }
       ]
     }
-  ]
+  ],
+  "uuid": "0737c706-541f-4abb-9c8b-e242b4eeff3a",
+  "version": "1.0.0",
+  "version_deconz": ">2.19.3"
 }

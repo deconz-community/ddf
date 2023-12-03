@@ -1,7 +1,13 @@
 {
   "schema": "devcap1.schema.json",
-  "manufacturername": ["Schneider Electric", "Schneider Electric"],
-  "modelid": ["FLS/AIRLINK/4", "FLS/SYSTEM-M/4"],
+  "manufacturername": [
+    "Schneider Electric",
+    "Schneider Electric"
+  ],
+  "modelid": [
+    "FLS/AIRLINK/4",
+    "FLS/SYSTEM-M/4"
+  ],
   "product": "4 or 2 Button Switch wireless",
   "sleeper": true,
   "status": "Gold",
@@ -14,12 +20,27 @@
         "0x15",
         "0x0006"
       ],
-      "fingerprint": { "profile": "0x0104", "device": "0x000c", "endpoint": "0x15", "in": ["0x0000", "0x0001", "0x0006", "0x0008"] },
+      "fingerprint": {
+        "profile": "0x0104",
+        "device": "0x000c",
+        "endpoint": "0x15",
+        "in": [
+          "0x0000",
+          "0x0001",
+          "0x0006",
+          "0x0008"
+        ]
+      },
       "items": [
         {
-            "name": "config/battery",
-            "parse": {"ep": 21, "cl": "0x0001", "at": "0x0021", "eval": "Item.val = Attr.val / 2"},
-            "awake": true
+          "name": "config/battery",
+          "parse": {
+            "ep": 21,
+            "cl": "0x0001",
+            "at": "0x0021",
+            "eval": "Item.val = Attr.val / 2"
+          },
+          "awake": true
         },
         {
           "name": "attr/id"
@@ -88,7 +109,18 @@
       "bind": "unicast",
       "src.ep": 21,
       "cl": "0x0001",
-      "report": [ {"at": "0x0021", "dt": "0x20", "min": 300, "max": 3600, "change": "0x01" } ]
+      "report": [
+        {
+          "at": "0x0021",
+          "dt": "0x20",
+          "min": 300,
+          "max": 3600,
+          "change": "0x01"
+        }
+      ]
     }
-  ]
+  ],
+  "uuid": "2fbfe7cf-6ae0-429e-abaf-6b57196ba856",
+  "version": "1.0.0",
+  "version_deconz": ">2.19.3"
 }

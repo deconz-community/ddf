@@ -1,7 +1,17 @@
 {
   "schema": "devcap1.schema.json",
-  "manufacturername": ["_TZ3000_m0vaazab","_TZ3000_ufttklsz","_TZ3000_5k5vh43t","_TZ3000_gszjt2xx"],
-  "modelid": ["TS0207","TS0207","TS0207","TS0207"],
+  "manufacturername": [
+    "_TZ3000_m0vaazab",
+    "_TZ3000_ufttklsz",
+    "_TZ3000_5k5vh43t",
+    "_TZ3000_gszjt2xx"
+  ],
+  "modelid": [
+    "TS0207",
+    "TS0207",
+    "TS0207",
+    "TS0207"
+  ],
   "product": "Range Extender",
   "sleeper": false,
   "status": "Gold",
@@ -34,8 +44,19 @@
         },
         {
           "name": "attr/swversion",
-          "parse": {"fn": "zcl:attr", "ep": 1, "cl": "0x0000", "at": "0x0001", "script": "tuya_swversion.js"},
-          "read": {"fn": "zcl:attr", "ep": 1, "cl": "0x0000", "at": "0x0001"}
+          "parse": {
+            "fn": "zcl:attr",
+            "ep": 1,
+            "cl": "0x0000",
+            "at": "0x0001",
+            "script": "tuya_swversion.js"
+          },
+          "read": {
+            "fn": "zcl:attr",
+            "ep": 1,
+            "cl": "0x0000",
+            "at": "0x0001"
+          }
         },
         {
           "name": "attr/type"
@@ -48,5 +69,8 @@
         }
       ]
     }
-  ]
+  ],
+  "uuid": "cfb37e1b-2deb-4e0f-b74c-cac538b77676",
+  "version": "1.0.0",
+  "version_deconz": ">2.19.3"
 }

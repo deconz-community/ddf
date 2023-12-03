@@ -1,11 +1,19 @@
 {
   "schema": "devcap1.schema.json",
-  "manufacturername": ["_TZE200_v6ossqfy","_TZE200_mx6u6l4y","_TZE200_0u3bj3rc"],
-  "modelid": ["TS0601","TS0601","TS0601"],
+  "manufacturername": [
+    "_TZE200_v6ossqfy",
+    "_TZE200_mx6u6l4y",
+    "_TZE200_0u3bj3rc"
+  ],
+  "modelid": [
+    "TS0601",
+    "TS0601",
+    "TS0601"
+  ],
   "product": "2.4GHz mmWave radar w/LED",
   "sleeper": false,
   "status": "Silver",
-    "subdevices": [
+  "subdevices": [
     {
       "type": "$TYPE_PRESENCE_SENSOR",
       "restapi": "/sensors",
@@ -97,7 +105,7 @@
             "dpid": 103,
             "dt": "0x10",
             "eval": "Item.val == 1 ? 1 : 0;",
-           "fn": "tuya"
+            "fn": "tuya"
           },
           "parse": {
             "dpid": 103,
@@ -148,5 +156,8 @@
       "src.ep": 1,
       "cl": "0xEF00"
     }
-  ]
+  ],
+  "uuid": "636c3476-f37f-4942-bbc8-8592eac08799",
+  "version": "1.0.0",
+  "version_deconz": ">2.19.3"
 }

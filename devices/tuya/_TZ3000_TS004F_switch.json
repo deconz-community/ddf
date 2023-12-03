@@ -1,7 +1,13 @@
 {
   "schema": "devcap1.schema.json",
-  "manufacturername": ["_TZ3000_rco1yzb1","_TZ3000_czuyt8lz"],
-  "modelid": ["TS004F","TS004F"],
+  "manufacturername": [
+    "_TZ3000_rco1yzb1",
+    "_TZ3000_czuyt8lz"
+  ],
+  "modelid": [
+    "TS004F",
+    "TS004F"
+  ],
   "product": "TS004F Scene Switch",
   "sleeper": true,
   "status": "Gold",
@@ -34,10 +40,21 @@
           "name": "attr/name"
         },
         {
-          "name": "attr/swversion",                   
+          "name": "attr/swversion",
           "refresh.interval": 86400,
-          "parse": {"fn": "zcl:attr", "ep": 1, "cl": "0x0000", "at": "0x0001", "script": "tuya_swversion.js"},
-          "read": {"fn": "zcl:attr", "ep": 1, "cl": "0x0000", "at": "0x0001"}
+          "parse": {
+            "fn": "zcl:attr",
+            "ep": 1,
+            "cl": "0x0000",
+            "at": "0x0001",
+            "script": "tuya_swversion.js"
+          },
+          "read": {
+            "fn": "zcl:attr",
+            "ep": 1,
+            "cl": "0x0000",
+            "at": "0x0001"
+          }
         },
         {
           "name": "attr/type"
@@ -98,5 +115,8 @@
       "dst.ep": 1,
       "cl": "0x0008"
     }
-  ]
+  ],
+  "uuid": "28cbf020-510b-404c-8f55-6a1064651688",
+  "version": "1.0.0",
+  "version_deconz": ">2.19.3"
 }

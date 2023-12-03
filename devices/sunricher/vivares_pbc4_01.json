@@ -49,8 +49,19 @@
         },
         {
           "name": "attr/swversion",
-          "parse": {"fn": "zcl:attr", "ep": 1, "cl": "0x0000", "at": "0x4000", "eval": "Item.val = Attr.val"},
-          "read": {"fn": "zcl:attr", "ep": 1, "cl": "0x0000", "at": "0x4000"},
+          "parse": {
+            "fn": "zcl:attr",
+            "ep": 1,
+            "cl": "0x0000",
+            "at": "0x4000",
+            "eval": "Item.val = Attr.val"
+          },
+          "read": {
+            "fn": "zcl:attr",
+            "ep": 1,
+            "cl": "0x0000",
+            "at": "0x4000"
+          },
           "refresh.interval": 180
         },
         {
@@ -130,5 +141,8 @@
       "cl": "0x0008",
       "config.group": 3
     }
-  ]
+  ],
+  "uuid": "606de465-8087-4933-99f4-5291d8ebbdfa",
+  "version": "1.0.0",
+  "version_deconz": ">2.19.3"
 }

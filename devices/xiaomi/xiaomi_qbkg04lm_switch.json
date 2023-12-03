@@ -125,8 +125,14 @@
             "mf": "0x115f"
           },
           "values": [
-            ["\"decoupled\"", "Decoupled Mode"],
-            ["\"coupled\"", "Coupled Mode"] 
+            [
+              "\"decoupled\"",
+              "Decoupled Mode"
+            ],
+            [
+              "\"coupled\"",
+              "Coupled Mode"
+            ]
           ],
           "default": "coupled"
         },
@@ -147,5 +153,8 @@
         }
       ]
     }
-  ]
+  ],
+  "uuid": "8ad7f50d-6096-41fc-b4c8-83e0a29499fd",
+  "version": "1.0.0",
+  "version_deconz": ">2.19.3"
 }

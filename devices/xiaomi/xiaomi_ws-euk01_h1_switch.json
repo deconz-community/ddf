@@ -146,8 +146,14 @@
             "mf": "0x115f"
           },
           "values": [
-            ["\"decoupled\"", "Decoupled Mode"],
-            ["\"coupled\"", "Coupled Mode"] 
+            [
+              "\"decoupled\"",
+              "Decoupled Mode"
+            ],
+            [
+              "\"coupled\"",
+              "Coupled Mode"
+            ]
           ],
           "default": "coupled"
         },
@@ -179,8 +185,14 @@
             "mf": "0x115f"
           },
           "values": [
-            ["\"compatibility\"", "Default mode for Xiaomi devices"],
-            ["\"zigbee\"", "Closer to zigbee standard"] 
+            [
+              "\"compatibility\"",
+              "Default mode for Xiaomi devices"
+            ],
+            [
+              "\"zigbee\"",
+              "Closer to zigbee standard"
+            ]
           ],
           "default": "compatibility"
         },
@@ -212,8 +224,14 @@
             "mf": "0x115f"
           },
           "values": [
-            [true, "Device LED always on"],
-            [false, "Device LED off from 9pm - 9am"] 
+            [
+              true,
+              "Device LED always on"
+            ],
+            [
+              false,
+              "Device LED off from 9pm - 9am"
+            ]
           ],
           "default": true
         },
@@ -231,5 +249,8 @@
         }
       ]
     }
-  ]
+  ],
+  "uuid": "b30c72ae-754a-4114-b8e4-69bb0e61ea09",
+  "version": "1.0.0",
+  "version_deconz": ">2.19.3"
 }

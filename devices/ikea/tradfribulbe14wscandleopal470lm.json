@@ -114,5 +114,8 @@
       "dst.ep": 1,
       "cl": "0x0300"
     }
-  ]
+  ],
+  "uuid": "47525e15-e39b-4d27-829d-abbf7ba7f9b8",
+  "version": "1.0.0",
+  "version_deconz": ">2.19.3"
 }

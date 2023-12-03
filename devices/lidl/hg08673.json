@@ -1,7 +1,15 @@
 {
   "schema": "devcap1.schema.json",
-  "manufacturername": ["_TZ3000_nkcobies","_TZ3000_j1v25l17","_TZ3000_ynmowqk2"],
-  "modelid": ["TS011F","TS011F","TS011F"],
+  "manufacturername": [
+    "_TZ3000_nkcobies",
+    "_TZ3000_j1v25l17",
+    "_TZ3000_ynmowqk2"
+  ],
+  "modelid": [
+    "TS011F",
+    "TS011F",
+    "TS011F"
+  ],
   "product": "HG08673 LIDL SilverCrest smart plug with monitoring (DK, EU, FR)",
   "sleeper": false,
   "status": "Silver",
@@ -34,8 +42,19 @@
         },
         {
           "name": "attr/swversion",
-          "parse": {"fn": "zcl:attr", "ep": 1, "cl": "0x0000", "at": "0x0001", "script": "../tuya/tuya_swversion.js"},
-          "read": {"fn": "zcl:attr", "ep": 1, "cl": "0x0000", "at": "0x0001"}
+          "parse": {
+            "fn": "zcl:attr",
+            "ep": 1,
+            "cl": "0x0000",
+            "at": "0x0001",
+            "script": "../tuya/tuya_swversion.js"
+          },
+          "read": {
+            "fn": "zcl:attr",
+            "ep": 1,
+            "cl": "0x0000",
+            "at": "0x0001"
+          }
         },
         {
           "name": "attr/type"
@@ -93,7 +112,13 @@
         },
         {
           "name": "attr/swversion",
-          "parse": {"fn": "zcl:attr", "ep": 1, "cl": "0x0000", "at": "0x0001", "script": "../tuya/tuya_swversion.js"}
+          "parse": {
+            "fn": "zcl:attr",
+            "ep": 1,
+            "cl": "0x0000",
+            "at": "0x0001",
+            "script": "../tuya/tuya_swversion.js"
+          }
         },
         {
           "name": "attr/type"
@@ -159,7 +184,13 @@
         },
         {
           "name": "attr/swversion",
-          "parse": {"fn": "zcl:attr", "ep": 1, "cl": "0x0000", "at": "0x0001", "script": "../tuya/tuya_swversion.js"}
+          "parse": {
+            "fn": "zcl:attr",
+            "ep": 1,
+            "cl": "0x0000",
+            "at": "0x0001",
+            "script": "../tuya/tuya_swversion.js"
+          }
         },
         {
           "name": "attr/type"
@@ -245,5 +276,8 @@
         }
       ]
     }
-  ]
+  ],
+  "uuid": "cd6685c8-8e38-42b9-9461-185588a4a170",
+  "version": "1.0.0",
+  "version_deconz": ">2.19.3"
 }

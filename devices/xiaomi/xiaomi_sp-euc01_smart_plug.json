@@ -8,7 +8,9 @@
   "status": "Gold",
   "comment": "DDF for device firmwares at least above 0.0.0_0022, paired with xBee I fw 0x26400500 / xBee II fw 0x266f0700 and above",
   "matchexpr": "(R.endpoints.indexOf(0x15) !== -1) && (R.endpoints.indexOf(0x1F) !== -1);",
-  "md:known_issues": [ "xiaomi_known_issues_plugfw.md" ],
+  "md:known_issues": [
+    "xiaomi_known_issues_plugfw.md"
+  ],
   "subdevices": [
     {
       "type": "$TYPE_SMART_PLUG",
@@ -256,5 +258,8 @@
         }
       ]
     }
-  ]
+  ],
+  "uuid": "9c881c3a-7b45-4f68-80bf-d33f381e764b",
+  "version": "1.0.0",
+  "version_deconz": ">2.19.3"
 }

@@ -1,7 +1,35 @@
 {
   "schema": "devcap1.schema.json",
-  "manufacturername": ["_TZ3000_n2egfsli", "_TZ3000_oxslv1c9", "_TZ3000_7tbsruql", "_TZ3000_7d8yme6f", "_TZ3000_rgchmad8", "_TZ3000_bzxlofth","_TZ3000_au1rjicn", "_TZ3000_4ugnzsli", "_TZ3000_decxrtwa", "_TZ3000_2mbfxlzr", "_TZ3000_6zvw8ham", "_TZ3000_v7chgqso", "_TZ3000_yxqnffam"],
-  "modelid": ["TS0203", "TS0203", "TS0203", "TS0203", "TS0203", "TS0203","TS0203","TS0203","TS0203", "TS0203", "TS0203", "TS0203", "TS0203"],
+  "manufacturername": [
+    "_TZ3000_n2egfsli",
+    "_TZ3000_oxslv1c9",
+    "_TZ3000_7tbsruql",
+    "_TZ3000_7d8yme6f",
+    "_TZ3000_rgchmad8",
+    "_TZ3000_bzxlofth",
+    "_TZ3000_au1rjicn",
+    "_TZ3000_4ugnzsli",
+    "_TZ3000_decxrtwa",
+    "_TZ3000_2mbfxlzr",
+    "_TZ3000_6zvw8ham",
+    "_TZ3000_v7chgqso",
+    "_TZ3000_yxqnffam"
+  ],
+  "modelid": [
+    "TS0203",
+    "TS0203",
+    "TS0203",
+    "TS0203",
+    "TS0203",
+    "TS0203",
+    "TS0203",
+    "TS0203",
+    "TS0203",
+    "TS0203",
+    "TS0203",
+    "TS0203",
+    "TS0203"
+  ],
   "vendor": "Tuya",
   "product": "Smart Zigbee Door Window Contact",
   "sleeper": true,
@@ -54,7 +82,7 @@
           "name": "attr/uniqueid"
         },
         {
-           "name":"state/tampered"
+          "name": "state/tampered"
         },
         {
           "name": "config/checkin"
@@ -116,5 +144,8 @@
       "dst.ep": 1,
       "cl": "0x0500"
     }
-  ]
+  ],
+  "uuid": "720d114f-cf30-4951-9482-1244cdc67a23",
+  "version": "1.0.0",
+  "version_deconz": ">2.19.3"
 }

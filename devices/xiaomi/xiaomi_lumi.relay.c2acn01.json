@@ -64,7 +64,7 @@
         }
       ]
     },
-   {
+    {
       "type": "$TYPE_ON_OFF_OUTPUT",
       "restapi": "/lights",
       "uuid": [
@@ -121,8 +121,8 @@
           "name": "state/reachable"
         }
       ]
-     },
-     {
+    },
+    {
       "type": "$TYPE_POWER_SENSOR",
       "restapi": "/sensors",
       "uuid": [
@@ -195,7 +195,7 @@
         },
         {
           "name": "state/power",
-          "refresh.interval":360,
+          "refresh.interval": 360,
           "read": {
             "at": "0x0055",
             "cl": "0x000C",
@@ -326,5 +326,8 @@
         }
       ]
     }
-  ]
+  ],
+  "uuid": "40596579-1aeb-42e1-a6d8-c422d6da05b1",
+  "version": "1.0.0",
+  "version_deconz": ">2.19.3"
 }

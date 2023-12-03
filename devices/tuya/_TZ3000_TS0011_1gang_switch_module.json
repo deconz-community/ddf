@@ -1,7 +1,21 @@
 {
   "schema": "devcap1.schema.json",
-  "manufacturername": ["_TZ3000_txpirhfq","_TZ3000_qmi1cfuq", "_TZ3000_ji4araar","_TZ3000_v7sopte0","_TYZB01_qeqvmvti","_TZ3000_7jsk6lxz"],
-  "modelid": ["TS0011", "TS0011", "TS0011","TS0011","TS0011","TS0011"],
+  "manufacturername": [
+    "_TZ3000_txpirhfq",
+    "_TZ3000_qmi1cfuq",
+    "_TZ3000_ji4araar",
+    "_TZ3000_v7sopte0",
+    "_TYZB01_qeqvmvti",
+    "_TZ3000_7jsk6lxz"
+  ],
+  "modelid": [
+    "TS0011",
+    "TS0011",
+    "TS0011",
+    "TS0011",
+    "TS0011",
+    "TS0011"
+  ],
   "product": "1 gang switch module",
   "sleeper": false,
   "status": "Gold",
@@ -33,9 +47,20 @@
           "name": "attr/name"
         },
         {
-          "name": "attr/swversion",                   
-          "parse": {"fn": "zcl:attr", "ep": 1, "cl": "0x0000", "at": "0x0001", "script": "tuya_swversion.js"},
-          "read": {"fn": "zcl:attr", "ep": 1, "cl": "0x0000", "at": "0x0001"}
+          "name": "attr/swversion",
+          "parse": {
+            "fn": "zcl:attr",
+            "ep": 1,
+            "cl": "0x0000",
+            "at": "0x0001",
+            "script": "tuya_swversion.js"
+          },
+          "read": {
+            "fn": "zcl:attr",
+            "ep": 1,
+            "cl": "0x0000",
+            "at": "0x0001"
+          }
         },
         {
           "name": "attr/type"
@@ -51,5 +76,8 @@
         }
       ]
     }
-  ]
+  ],
+  "uuid": "cd20e1ab-3471-4975-b8ac-30c86014a49c",
+  "version": "1.0.0",
+  "version_deconz": ">2.19.3"
 }

@@ -1,7 +1,13 @@
 {
   "schema": "devcap1.schema.json",
-  "manufacturername": ["_TZ3000_g5xawfcq", "_TZ3000_amdymr7l"],
-  "modelid": ["TS0121", "TS011F"],
+  "manufacturername": [
+    "_TZ3000_g5xawfcq",
+    "_TZ3000_amdymr7l"
+  ],
+  "modelid": [
+    "TS0121",
+    "TS011F"
+  ],
   "product": "BW-SHP13",
   "vendor": "Blitzwolf",
   "sleeper": false,
@@ -35,8 +41,19 @@
         },
         {
           "name": "attr/swversion",
-          "parse": {"fn": "zcl:attr", "ep": 1, "cl": "0x0000", "at": "0x0001", "script": "../tuya/tuya_swversion.js"},
-          "read": {"fn": "zcl:attr", "ep": 1, "cl": "0x0000", "at": "0x0001"}
+          "parse": {
+            "fn": "zcl:attr",
+            "ep": 1,
+            "cl": "0x0000",
+            "at": "0x0001",
+            "script": "../tuya/tuya_swversion.js"
+          },
+          "read": {
+            "fn": "zcl:attr",
+            "ep": 1,
+            "cl": "0x0000",
+            "at": "0x0001"
+          }
         },
         {
           "name": "attr/type"
@@ -95,7 +112,13 @@
         },
         {
           "name": "attr/swversion",
-          "parse": {"fn": "zcl:attr", "ep": 1, "cl": "0x0000", "at": "0x0001", "script": "../tuya/tuya_swversion.js"}
+          "parse": {
+            "fn": "zcl:attr",
+            "ep": 1,
+            "cl": "0x0000",
+            "at": "0x0001",
+            "script": "../tuya/tuya_swversion.js"
+          }
         },
         {
           "name": "attr/type"
@@ -164,7 +187,13 @@
         },
         {
           "name": "attr/swversion",
-          "parse": {"fn": "zcl:attr", "ep": 1, "cl": "0x0000", "at": "0x0001", "script": "../tuya/tuya_swversion.js"}
+          "parse": {
+            "fn": "zcl:attr",
+            "ep": 1,
+            "cl": "0x0000",
+            "at": "0x0001",
+            "script": "../tuya/tuya_swversion.js"
+          }
         },
         {
           "name": "attr/type"
@@ -180,8 +209,18 @@
         },
         {
           "name": "state/consumption",
-          "read": {"at": "0x0000", "cl": "0x0702", "ep": 0, "fn": "zcl:attr" },
-          "parse": {"at": "0x0000", "cl": "0x0702", "ep": 0, "eval": "Item.val = Attr.val * 10"},
+          "read": {
+            "at": "0x0000",
+            "cl": "0x0702",
+            "ep": 0,
+            "fn": "zcl:attr"
+          },
+          "parse": {
+            "at": "0x0000",
+            "cl": "0x0702",
+            "ep": 0,
+            "eval": "Item.val = Attr.val * 10"
+          },
           "refresh.interval": 300
         },
         {
@@ -246,5 +285,8 @@
         }
       ]
     }
-  ]
+  ],
+  "uuid": "6003b029-8899-4f5a-b6a1-34630ebe6012",
+  "version": "1.0.0",
+  "version_deconz": ">2.19.3"
 }

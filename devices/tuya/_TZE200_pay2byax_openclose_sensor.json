@@ -1,7 +1,15 @@
 {
   "schema": "devcap1.schema.json",
-  "manufacturername": ["_TZE200_pay2byax", "_TZE200_kltffuzl", "_TZE200_fwoorn8y"],
-  "modelid": ["TS0601", "TS0601", "TS0601"],
+  "manufacturername": [
+    "_TZE200_pay2byax",
+    "_TZE200_kltffuzl",
+    "_TZE200_fwoorn8y"
+  ],
+  "modelid": [
+    "TS0601",
+    "TS0601",
+    "TS0601"
+  ],
   "product": "ZG-102Z or TM001-ZA or TM081 open/close sensor",
   "sleeper": true,
   "status": "Gold",
@@ -35,8 +43,19 @@
         },
         {
           "name": "attr/swversion",
-          "parse": {"fn": "zcl:attr", "ep": 1, "cl": "0x0000", "at": "0x0001", "script": "tuya_swversion.js"},
-          "read": {"fn": "zcl:attr", "ep": 1, "cl": "0x0000", "at": "0x0001"}
+          "parse": {
+            "fn": "zcl:attr",
+            "ep": 1,
+            "cl": "0x0000",
+            "at": "0x0001",
+            "script": "tuya_swversion.js"
+          },
+          "read": {
+            "fn": "zcl:attr",
+            "ep": 1,
+            "cl": "0x0000",
+            "at": "0x0001"
+          }
         },
         {
           "name": "attr/type"
@@ -46,8 +65,14 @@
         },
         {
           "name": "config/battery",
-          "parse": {"fn": "tuya", "dpid": 2, "eval" : "Item.val = Attr.val;" },
-          "read": {"fn": "none"},
+          "parse": {
+            "fn": "tuya",
+            "dpid": 2,
+            "eval": "Item.val = Attr.val;"
+          },
+          "read": {
+            "fn": "none"
+          },
           "default": 0
         },
         {
@@ -61,11 +86,20 @@
         },
         {
           "name": "state/open",
-          "parse": {"fn": "tuya", "dpid": 1, "eval": "Item.val = Attr.val;" },
-          "read": {"fn": "tuya"},
+          "parse": {
+            "fn": "tuya",
+            "dpid": 1,
+            "eval": "Item.val = Attr.val;"
+          },
+          "read": {
+            "fn": "tuya"
+          },
           "default": false
         }
       ]
     }
-  ]
+  ],
+  "uuid": "88510c39-7547-4063-a82f-b7a4251cdcf2",
+  "version": "1.0.0",
+  "version_deconz": ">2.19.3"
 }

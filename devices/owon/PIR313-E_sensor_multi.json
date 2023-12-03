@@ -47,8 +47,19 @@
         {
           "name": "attr/swversion",
           "refresh.interval": 84000,
-          "read": {"cl": "0x0000", "at": "0x0006", "ep": 1, "fn": "zcl:attr"},
-          "parse": {"cl": "0x0000", "at": "0x0006", "ep": 1, "eval": "Item.val = Attr.val", "fn": "zcl:attr"}
+          "read": {
+            "cl": "0x0000",
+            "at": "0x0006",
+            "ep": 1,
+            "fn": "zcl:attr"
+          },
+          "parse": {
+            "cl": "0x0000",
+            "at": "0x0006",
+            "ep": 1,
+            "eval": "Item.val = Attr.val",
+            "fn": "zcl:attr"
+          }
         },
         {
           "name": "attr/type"
@@ -58,7 +69,7 @@
         },
         {
           "name": "config/duration",
-	      "default": 120	
+          "default": 120
         },
         {
           "name": "config/on"
@@ -120,8 +131,19 @@
         {
           "name": "attr/swversion",
           "refresh.interval": 84000,
-          "read": {"cl": "0x0000", "at": "0x0006", "ep": 1, "fn": "zcl:attr"},
-          "parse": {"cl": "0x0000", "at": "0x0006", "ep": 1, "eval": "Item.val = Attr.val", "fn": "zcl:attr"}
+          "read": {
+            "cl": "0x0000",
+            "at": "0x0006",
+            "ep": 1,
+            "fn": "zcl:attr"
+          },
+          "parse": {
+            "cl": "0x0000",
+            "at": "0x0006",
+            "ep": 1,
+            "eval": "Item.val = Attr.val",
+            "fn": "zcl:attr"
+          }
         },
         {
           "name": "attr/type"
@@ -189,8 +211,19 @@
         {
           "name": "attr/swversion",
           "refresh.interval": 84000,
-          "read": {"cl": "0x0000", "at": "0x0006", "ep": 1, "fn": "zcl:attr"},
-          "parse": {"cl": "0x0000", "at": "0x0006", "ep": 1, "eval": "Item.val = Attr.val", "fn": "zcl:attr"}
+          "read": {
+            "cl": "0x0000",
+            "at": "0x0006",
+            "ep": 1,
+            "fn": "zcl:attr"
+          },
+          "parse": {
+            "cl": "0x0000",
+            "at": "0x0006",
+            "ep": 1,
+            "eval": "Item.val = Attr.val",
+            "fn": "zcl:attr"
+          }
         },
         {
           "name": "attr/type"
@@ -267,8 +300,19 @@
         {
           "name": "attr/swversion",
           "refresh.interval": 84000,
-          "read": {"cl": "0x0000", "at": "0x0006", "ep": 1, "fn": "zcl:attr"},
-          "parse": {"cl": "0x0000", "at": "0x0006", "ep": 1, "eval": "Item.val = Attr.val", "fn": "zcl:attr"}
+          "read": {
+            "cl": "0x0000",
+            "at": "0x0006",
+            "ep": 1,
+            "fn": "zcl:attr"
+          },
+          "parse": {
+            "cl": "0x0000",
+            "at": "0x0006",
+            "ep": 1,
+            "eval": "Item.val = Attr.val",
+            "fn": "zcl:attr"
+          }
         },
         {
           "name": "attr/type"
@@ -302,39 +346,39 @@
           "name": "config/tholdoffset",
           "default": 7000
         },
-       {
-         "name": "state/dark",
-         "default": false
-       },
-       {
-         "name": "state/daylight",
-         "default": false
-       },
+        {
+          "name": "state/dark",
+          "default": false
+        },
+        {
+          "name": "state/daylight",
+          "default": false
+        },
         {
           "name": "state/lastupdated"
         },
-      {
-         "name": "state/lightlevel",
-         "refresh.interval": 84000,
-         "read": {
-           "at": "0x0000",
-           "cl": "0x0400",
-           "ep": 2,
-           "fn": "zcl:attr"
-         },
-         "parse": {
-           "at": "0x0000",
-           "cl": "0x0400",
-           "ep": 2,
-           "script": "../generic/illuminance_cluster/sml_light_level.js",
-           "fn": "zcl:attr"
-         },
-         "default": 0
-       },
-       {
-         "name": "state/lux",
-         "default": 0
-       }
+        {
+          "name": "state/lightlevel",
+          "refresh.interval": 84000,
+          "read": {
+            "at": "0x0000",
+            "cl": "0x0400",
+            "ep": 2,
+            "fn": "zcl:attr"
+          },
+          "parse": {
+            "at": "0x0000",
+            "cl": "0x0400",
+            "ep": 2,
+            "script": "../generic/illuminance_cluster/sml_light_level.js",
+            "fn": "zcl:attr"
+          },
+          "default": 0
+        },
+        {
+          "name": "state/lux",
+          "default": 0
+        }
       ]
     }
   ],
@@ -394,5 +438,8 @@
         }
       ]
     }
-  ]
+  ],
+  "uuid": "a2d4fd72-201a-46c7-8836-66756508c4c3",
+  "version": "1.0.0",
+  "version_deconz": ">2.19.3"
 }

@@ -146,11 +146,20 @@
         },
         {
           "name": "config/mode",
-          "default" : "momentary",
+          "default": "momentary",
           "values": [
-            ["\"momentary\"", "Momentary mode"],
-            ["\"rocker\"", "Rocker mode"],
-            ["\"custom\"", "Custom mode"]
+            [
+              "\"momentary\"",
+              "Momentary mode"
+            ],
+            [
+              "\"rocker\"",
+              "Rocker mode"
+            ],
+            [
+              "\"custom\"",
+              "Custom mode"
+            ]
           ]
         },
         {
@@ -361,5 +370,8 @@
         }
       ]
     }
-  ]
+  ],
+  "uuid": "7bb3a125-b97c-47a1-b3f9-44b78ac045be",
+  "version": "1.0.0",
+  "version_deconz": ">2.19.3"
 }

@@ -82,5 +82,8 @@
       "dst.ep": 1,
       "cl": "0x0008"
     }
-  ]
+  ],
+  "uuid": "9bf27eec-9f8b-4e1c-9688-1af6affeaf16",
+  "version": "1.0.0",
+  "version_deconz": ">2.19.3"
 }

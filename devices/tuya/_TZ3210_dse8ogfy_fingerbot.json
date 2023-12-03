@@ -1,7 +1,13 @@
 {
   "schema": "devcap1.schema.json",
-  "manufacturername": ["_TZ3210_dse8ogfy", "_TZ3210_j4pdtz9v"],
-  "modelid": ["TS0001", "TS0001"],
+  "manufacturername": [
+    "_TZ3210_dse8ogfy",
+    "_TZ3210_j4pdtz9v"
+  ],
+  "modelid": [
+    "TS0001",
+    "TS0001"
+  ],
   "vendor": "Tuya",
   "product": "Fingerbot",
   "sleeper": false,
@@ -35,8 +41,19 @@
         },
         {
           "name": "attr/swversion",
-          "parse": {"fn": "zcl:attr", "ep": 1, "cl": "0x0000", "at": "0x0001", "script": "tuya_swversion.js"},
-          "read": {"fn": "zcl:attr", "ep": 1, "cl": "0x0000", "at": "0x0001"}
+          "parse": {
+            "fn": "zcl:attr",
+            "ep": 1,
+            "cl": "0x0000",
+            "at": "0x0001",
+            "script": "tuya_swversion.js"
+          },
+          "read": {
+            "fn": "zcl:attr",
+            "ep": 1,
+            "cl": "0x0000",
+            "at": "0x0001"
+          }
         },
         {
           "name": "attr/type"
@@ -55,7 +72,7 @@
         }
       ]
     },
-   {
+    {
       "type": "$TYPE_BATTERY_SENSOR",
       "restapi": "/sensors",
       "uuid": [
@@ -84,8 +101,19 @@
         },
         {
           "name": "attr/swversion",
-          "parse": {"fn": "zcl:attr", "ep": 1, "cl": "0x0000", "at": "0x0001", "script": "tuya_swversion.js"},
-          "read": {"fn": "zcl:attr", "ep": 1, "cl": "0x0000", "at": "0x0001"}
+          "parse": {
+            "fn": "zcl:attr",
+            "ep": 1,
+            "cl": "0x0000",
+            "at": "0x0001",
+            "script": "tuya_swversion.js"
+          },
+          "read": {
+            "fn": "zcl:attr",
+            "ep": 1,
+            "cl": "0x0000",
+            "at": "0x0001"
+          }
         },
         {
           "name": "attr/type"
@@ -101,32 +129,41 @@
         },
         {
           "name": "state/battery",
-          "parse": {"fn": "tuya", "dpid": 105, "eval": "Item.val = Attr.val;" },
-          "read": {"fn": "none"},
+          "parse": {
+            "fn": "tuya",
+            "dpid": 105,
+            "eval": "Item.val = Attr.val;"
+          },
+          "read": {
+            "fn": "none"
+          },
           "default": 0
         },
         {
-          "name":"config/delay",
-          "read":{
-            "fn":"none"
+          "name": "config/delay",
+          "read": {
+            "fn": "none"
           },
-          "write":{
-            "dpid":103,
-            "dt":"0x2b",
-            "eval":"Item.val;",
-            "fn":"tuya"
+          "write": {
+            "dpid": 103,
+            "dt": "0x2b",
+            "eval": "Item.val;",
+            "fn": "tuya"
           },
-          "parse":{
-            "dpid":103,
-            "eval":"Item.val = Attr.val;",
-            "fn":"tuya"
+          "parse": {
+            "dpid": 103,
+            "eval": "Item.val = Attr.val;",
+            "fn": "tuya"
           },
-          "default":1
+          "default": 1
         },
         {
           "name": "state/lastupdated"
         }
       ]
     }
-  ]
+  ],
+  "uuid": "6610fa4b-c43a-4104-9a25-1f6090f6ca1a",
+  "version": "1.0.0",
+  "version_deconz": ">2.19.3"
 }
