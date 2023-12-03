@@ -70,3 +70,26 @@ fg.globSync(`${paths.outputDevices}/**/*.json`, {}).forEach((file) => {
 })
 
 fs.writeFileSync(paths.dictionary, JSON.stringify(dictionary, undefined, 2))
+
+// Fix some generic names
+fg.globSync(`${paths.outputGeneric}/subdevices/**/*.json`, {}).forEach((file) => {
+  const data = fs.readFileSync(file, 'utf8')
+  const subdevices = JSON.parse(data)
+
+  const expectedName = `${subdevices.type.replace('$TYPE_', '').toLowerCase()}.json`
+  if (path.basename(file) !== expectedName) {
+    fs.renameSync(file, path.join(path.dirname(file), expectedName))
+    console.log(`renamed file subdevices/${expectedName}`)
+  }
+})
+
+fg.globSync(`${paths.outputGeneric}/items/**/*.json`, {}).forEach((file) => {
+  const data = fs.readFileSync(file, 'utf8')
+  const item = JSON.parse(data)
+
+  const expectedName = `${item.id.replaceAll('\/', '_').toLowerCase()}_item.json`
+  if (path.basename(file) !== expectedName) {
+    fs.renameSync(file, path.join(path.dirname(file), expectedName))
+    console.log(`renamed file subdevices/${expectedName}`)
+  }
+})
