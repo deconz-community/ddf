@@ -12,7 +12,7 @@
   ],
   "product": "HG08673 LIDL SilverCrest smart plug with monitoring (DK, EU, FR)",
   "sleeper": false,
-  "status": "Silver",
+  "status": "Gold",
   "subdevices": [
     {
       "type": "$TYPE_SMART_PLUG",
@@ -278,6 +278,6 @@
     }
   ],
   "uuid": "cd6685c8-8e38-42b9-9461-185588a4a170",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "version_deconz": ">2.19.3"
 }

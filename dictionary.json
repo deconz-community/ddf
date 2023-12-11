@@ -7,8 +7,8 @@
     },
     "3A-Nue/lxn59-1s7lx1.0.json": {
       "uuid": "fff897ed-e8a0-43c1-8a22-753692a666fb",
-      "version": "1.0.0",
-      "hash": "9a2294fce451077f2aae9a69fc957cbb0582bdea73dc66e85442e911e552ce28"
+      "version": "1.1.0",
+      "hash": "428aafdede05fdf5f394294a98f5a9238903aa57e48ffb5b7e8f0de254d91d10"
     },
     "3A-Nue/lxt56-ls27lx1.7.json": {
       "uuid": "34eb77dc-47a4-46d3-8126-76f4abf277b0",
@@ -512,8 +512,8 @@
     },
     "lidl/hg08673.json": {
       "uuid": "cd6685c8-8e38-42b9-9461-185588a4a170",
-      "version": "1.0.0",
-      "hash": "2e72c16dde8a5d01951372f817f11d3db0a34e6d0e7730893a18327133b4f0c9"
+      "version": "1.1.0",
+      "hash": "a814d3002d67a5f0f6fc63a432957d4023413eebf9a16b4c6fa0082bb2b01425"
     },
     "linkind/001082_water_leak_sensor.json": {
       "uuid": "619ef268-a23d-4a82-aff7-ca42608fa7bf",
@@ -1574,6 +1574,16 @@
       "uuid": "6e4a6244-1642-44c2-9603-4eb7f3268453",
       "version": "1.0.0",
       "hash": "849647dcdc82f63b915546b4bc3e18cea7de280c1f718531f771a35a45026e31"
+    },
+    "ikea/tradfri_bulb_cws_A.json": {
+      "uuid": "2bc4502d-b565-4c7e-bf21-c01f2c3ee4ef",
+      "version": "1.0.0",
+      "hash": "c07e8e0d5fbf5b542620f35613551d6e05b43c9cd1beb54eb7d2ca82cf5a5ddc"
+    },
+    "namron/4512765_hum_temp.json": {
+      "uuid": "95c8bf72-da79-4735-8137-42962f4d754c",
+      "version": "1.0.0",
+      "hash": "2fb9fcd3359128165fdcd419a92d9a636ab19e0c25e4211a76fe87fca8416a7e"
     }
   }
 }
