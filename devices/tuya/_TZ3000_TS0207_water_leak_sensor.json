@@ -4,12 +4,12 @@
     "_TZ3000_d16y6col",
     "_TZ3000_ww9i3e0y",
     "_TZ3000_qhozxs2b",
+    "_TZ3000_85czd6fy",
     "_TZ3000_ocjlo4ea",
     "_TZ3000_kyb656no",
     "_TZ3000_fxvjhdyl",
     "_TZ3000_eit7p838",
     "_TZ3000_t6jriawg",
-    "_TZ3000_85czd6fy",
     "_TYZB01_sqmd19i1",
     "_TYZB01_o63ssaah",
     "_TZ3000_it1hm1cr",
@@ -165,6 +165,5 @@
     }
   ],
   "uuid": "af8e14bd-c03e-4edb-b5ae-5a696f98cd62",
-  "version": "1.0.0",
   "version_deconz": ">2.19.3"
 }

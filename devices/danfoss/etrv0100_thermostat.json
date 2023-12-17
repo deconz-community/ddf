@@ -32,6 +32,14 @@
           "0x0B05"
         ]
       },
+      "meta": {
+        "values": {
+          "config/mode": {
+            "off": 0,
+            "heat": 1
+          }
+        }
+      },
       "items": [
         {
           "name": "attr/id"
@@ -176,8 +184,65 @@
           "refresh.interval": 3660
         },
         {
+          "name": "config/loadbalancing",
+          "refresh.interval": 3660,
+          "read": {
+            "at": "0x4032",
+            "cl": "0x0201",
+            "ep": 1,
+            "fn": "zcl:attr",
+            "mf": "0x1246"
+          },
+          "parse": {
+            "at": "0x4032",
+            "cl": "0x0201",
+            "ep": 1,
+            "eval": "Item.val = Attr.val;",
+            "fn": "zcl:attr",
+            "mf": "0x1246"
+          },
+          "write": {
+            "at": "0x4032",
+            "cl": "0x0201",
+            "dt": "0x10",
+            "ep": 1,
+            "eval": "Item.val",
+            "fn": "zcl:attr",
+            "mf": "0x1246"
+          }
+        },
+        {
           "name": "config/locked",
           "refresh.interval": 3660
+        },
+        {
+          "name": "config/mode",
+          "refresh.interval": 3660,
+          "read": {
+            "at": "0x4030",
+            "cl": "0x0201",
+            "ep": 1,
+            "fn": "zcl:attr",
+            "mf": "0x1246"
+          },
+          "parse": {
+            "at": "0x4030",
+            "cl": "0x0201",
+            "ep": 1,
+            "eval": "if (Attr.val == 0) { Item.val = 'off' } else if (Attr.val == 1) { Item.val = 'heat' };",
+            "fn": "zcl:attr",
+            "mf": "0x1246"
+          },
+          "write": {
+            "at": "0x4030",
+            "cl": "0x0201",
+            "dt": "0x10",
+            "ep": 1,
+            "eval": "if (Item.val == 'off') { 0 } else if (Item.val == 'heat') { 1 };",
+            "fn": "zcl:attr",
+            "mf": "0x1246"
+          },
+          "default": "heat"
         },
         {
           "name": "config/mountingmode",
@@ -245,6 +310,34 @@
           "name": "config/on"
         },
         {
+          "name": "config/radiatorcovered",
+          "refresh.interval": 3660,
+          "read": {
+            "at": "0x4016",
+            "cl": "0x0201",
+            "ep": 1,
+            "fn": "zcl:attr",
+            "mf": "0x1246"
+          },
+          "parse": {
+            "at": "0x4016",
+            "cl": "0x0201",
+            "ep": 1,
+            "eval": "Item.val = Attr.val;",
+            "fn": "zcl:attr",
+            "mf": "0x1246"
+          },
+          "write": {
+            "at": "0x4016",
+            "cl": "0x0201",
+            "dt": "0x10",
+            "ep": 1,
+            "eval": "Item.val",
+            "fn": "zcl:attr",
+            "mf": "0x1246"
+          }
+        },
+        {
           "name": "config/reachable"
         },
         {
@@ -253,6 +346,34 @@
         {
           "name": "config/schedule_on",
           "refresh.interval": 3660
+        },
+        {
+          "name": "config/windowopendetectionenabled",
+          "refresh.interval": 3660,
+          "read": {
+            "at": "0x4051",
+            "cl": "0x0201",
+            "ep": 1,
+            "fn": "zcl:attr",
+            "mf": "0x1246"
+          },
+          "parse": {
+            "at": "0x4051",
+            "cl": "0x0201",
+            "ep": 1,
+            "eval": "Item.val = Attr.val;",
+            "fn": "zcl:attr",
+            "mf": "0x1246"
+          },
+          "write": {
+            "at": "0x4051",
+            "cl": "0x0201",
+            "dt": "0x10",
+            "ep": 1,
+            "eval": "Item.val",
+            "fn": "zcl:attr",
+            "mf": "0x1246"
+          }
         },
         {
           "name": "state/errorcode",
@@ -551,6 +672,5 @@
     }
   ],
   "uuid": "a7aaaec3-cd11-4c10-99a6-7f0f29e7d54f",
-  "version": "1.0.0",
   "version_deconz": ">2.19.3"
 }

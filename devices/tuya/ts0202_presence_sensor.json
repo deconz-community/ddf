@@ -24,9 +24,11 @@
     "_TYZB01_zwvaj5wy",
     "_TZ3000_bsvqrxru",
     "_TZ3000_mg4dy6z6",
-    "_TZ3040_bb6xaihh"
+    "_TZ3040_bb6xaihh",
+    "_TZ3000_lf56vpxj"
   ],
   "modelid": [
+    "TS0202",
     "TS0202",
     "TS0202",
     "TS0202",
@@ -174,6 +176,5 @@
     }
   ],
   "uuid": "5b9323a5-b218-4f5c-9a2a-bb420105d88c",
-  "version": "1.0.0",
   "version_deconz": ">2.19.3"
 }

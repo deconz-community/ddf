@@ -2,11 +2,13 @@
   "schema": "devcap1.schema.json",
   "manufacturername": [
     "eWeLink",
+    "SONOFF",
     "SONOFF"
   ],
   "modelid": [
     "TH01",
-    "SNZB-02D"
+    "SNZB-02D",
+    "SNZB-02P"
   ],
   "vendor": "SONOFF",
   "product": "SNZB-02 multisensor",
@@ -257,6 +259,5 @@
     }
   ],
   "uuid": "200ca264-5bfb-4207-92bf-6f71e4936674",
-  "version": "1.0.0",
   "version_deconz": ">2.19.3"
 }

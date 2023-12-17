@@ -242,7 +242,13 @@
           "name": "cap/on/off_with_effect"
         },
         {
+          "name": "config/bri/couple_ct"
+        },
+        {
           "name": "config/bri/execute_if_off"
+        },
+        {
+          "name": "config/bri/options"
         },
         {
           "name": "config/bri/startup"
@@ -418,6 +424,5 @@
     }
   ],
   "uuid": "4c7b4e84-0be5-4d9a-8ca9-d16a7cbbd565",
-  "version": "1.0.0",
   "version_deconz": ">2.19.3"
 }

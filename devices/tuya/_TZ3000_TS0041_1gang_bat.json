@@ -3,9 +3,11 @@
   "manufacturername": [
     " _TZ3000_itb0omhv",
     "_TZ3000_4upl1fcj",
-    "_TZ3000_wqcbzbae"
+    "_TZ3000_wqcbzbae",
+    "_TZ3000_fa9mlvja"
   ],
   "modelid": [
+    "TS0041",
     "TS0041",
     "TS0041",
     "TS0041"
@@ -118,6 +120,5 @@
     }
   ],
   "uuid": "53fea0c7-1dc3-4c8e-b06d-f4a4e2f7c140",
-  "version": "1.0.0",
   "version_deconz": ">2.19.3"
 }

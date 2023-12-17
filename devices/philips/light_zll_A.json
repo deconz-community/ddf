@@ -242,6 +242,5 @@
     }
   ],
   "uuid": "68830985-fe1d-49c0-ae3c-9a93dc3f9178",
-  "version": "1.0.0",
   "version_deconz": ">2.19.3"
 }
