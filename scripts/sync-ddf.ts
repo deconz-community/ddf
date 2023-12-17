@@ -6,7 +6,6 @@ import { fileURLToPath } from 'node:url'
 import degit from 'degit'
 import fg from 'fast-glob'
 import { v4 as uuidv4 } from 'uuid'
-import semver from 'semver'
 import pkg from 'crypto-js'
 
 const { SHA256 } = pkg
@@ -49,17 +48,14 @@ fg.globSync(`${paths.output}/**/*.json`, { ignore: [`${paths.output}/generic/**/
   if (dictionary.devices[relativePath] === undefined) {
     dictionary.devices[relativePath] = {
       uuid: uuidv4(),
-      version: '1.0.0',
       hash,
     }
   }
   else if (dictionary.devices[relativePath].hash !== hash) {
-    dictionary.devices[relativePath].version = semver.inc(dictionary.devices[relativePath].version, 'minor')
     dictionary.devices[relativePath].hash = hash
   }
 
   ddf.uuid = dictionary.devices[relativePath].uuid
-  ddf.version = dictionary.devices[relativePath].version
   ddf.version_deconz = '>2.19.3'
 
   fs.writeFileSync(file, JSON.stringify(ddf, undefined, 2))
