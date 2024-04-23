@@ -62,11 +62,11 @@
     },
     "bosch/thermostat2.json": {
       "uuid": "ef060b6b-6729-4b16-8114-6ad357ca8778",
-      "hash": "dd3d29987eefd1d799564346a9a5877cb4dbf35ad063e431eac84717de332c9f"
+      "hash": "bee8a2d19622b0d1a6a0ae6a2577cf39910aeb6a749ac17daddd69dbbcfa94d9"
     },
     "centralite/motion_sensor-a.json": {
       "uuid": "8480c5c9-bce1-4958-95e9-caef5aff085e",
-      "hash": "96c859893508f30bf623741db74a9b557d7e9f82b597d781128882048757847e"
+      "hash": "bda77551a23332763b7013e58a5c871c85c57e06b4d6918e6b2e5e00147a38e7"
     },
     "computime-salus/ss909zb_temp_sensor.json": {
       "uuid": "0c7d6d74-c118-4b67-b245-04b947eb2669",
@@ -74,7 +74,7 @@
     },
     "danalock/danalock_v3.json": {
       "uuid": "2f17fd56-ccbb-4049-94df-254ae885c5b2",
-      "hash": "7332ee381d9bb9892efa887ac45d557db2d17b00133cbeadd4421b67d745e45d"
+      "hash": "6d6377952d2a50a6362636dcb7aa936fc719ea40a252214c403ff77de6b996d2"
     },
     "danfoss/ally_temp_hum_sensor.json": {
       "uuid": "9cba6d15-e950-438d-a495-cdd1960845ab",
@@ -82,7 +82,7 @@
     },
     "danfoss/etrv0100_thermostat.json": {
       "uuid": "a7aaaec3-cd11-4c10-99a6-7f0f29e7d54f",
-      "hash": "2a66249f9c11eeab1902bcae3e881cbc22e8682294a59802e166af314521d469"
+      "hash": "2855a3aef538bd59c5a488aa2092033c5265645b66ee699a1e0762eb29729109"
     },
     "develco/aqszb-110_voc_sensor.json": {
       "uuid": "7511afed-c858-4814-b33c-cb670b3747db",
@@ -142,7 +142,7 @@
     },
     "easyaccess/easyfingertouch_doorlock.json": {
       "uuid": "d7acb90b-2e40-4f03-94d2-8cfa5b931128",
-      "hash": "dfff24ff2303c2b1a6e83dcce5abe8bcc147abba05b840b0e02ccfdbf4826964"
+      "hash": "1d076bee5d45744973e33cb07d3c160a9c3414bf676b5220f67c312639bafcf8"
     },
     "elko/thermostat_16_a.json": {
       "uuid": "7aa8c5c5-e84a-4152-b660-b475535cbdf1",
@@ -306,7 +306,7 @@
     },
     "ikea/tradfri_control_outlet.json": {
       "uuid": "04080abe-99a3-4486-98f1-50570f834702",
-      "hash": "c61a0c19ec827bce72a535494a126aeaf94781ba7a1781975fb1013d28e9b35d"
+      "hash": "b64ec3242ddcf5d60aa22d96ae55ccd3ddb67e9a1803ad4a1fef2de9bbef8a32"
     },
     "ikea/tradfri_motion_sensor.json": {
       "uuid": "70bc07b3-6bf4-4701-b2fd-84c262a3a2fc",
@@ -314,7 +314,7 @@
     },
     "ikea/tradfri_on_off_switch.json": {
       "uuid": "1e7113cc-eedb-474b-a995-9e944e92a6bc",
-      "hash": "ebe2eddcd7018a46a1382b1ec06dfc4a618457c09969c882ad55f39d8e750d5f"
+      "hash": "1909927cca726b243e91d4d28b27531f482bee838d3c04a33df4d53e9edadc58"
     },
     "ikea/tradfri_open_close_remote.json": {
       "uuid": "80ade4db-5184-481f-bdc9-af8e99bcf587",
@@ -402,7 +402,7 @@
     },
     "legrand/wireless_scenes_command.json": {
       "uuid": "2f7c936d-3221-4481-99f0-6b9b2d128c8e",
-      "hash": "573e935a4a48a5f2001e21ee0193c7b3df1cbb5e0bc6be1f347e8b8d04bd1545"
+      "hash": "1a382b2b2daf7f2236af20fb9568abecdac83e6d1598e2a91b1bfa3419cab41d"
     },
     "lidl/hg06338.json": {
       "uuid": "42153b01-b20c-489f-9efd-150739fec533",
@@ -410,7 +410,7 @@
     },
     "lidl/hg08673.json": {
       "uuid": "cd6685c8-8e38-42b9-9461-185588a4a170",
-      "hash": "a814d3002d67a5f0f6fc63a432957d4023413eebf9a16b4c6fa0082bb2b01425"
+      "hash": "688b6026a84677db1781afdf389077f8b729e3a9014e3f2ea9bcc5c07eac1554"
     },
     "linkind/001082_water_leak_sensor.json": {
       "uuid": "619ef268-a23d-4a82-aff7-ca42608fa7bf",
@@ -466,7 +466,7 @@
     },
     "moes/Moes_MS-104BZ_wired_switch_2_gangs.json": {
       "uuid": "88e3514b-239a-4327-a5dc-fbb1a98561e8",
-      "hash": "b25ab4d5d4180cfdf807a31f618d4fef2b81b90916a3ccc8178536da8d15f40e"
+      "hash": "ec21b8ab8dabe3fd10bb56fc60eb32eebd7aa309d5a87512b52f817679739bb1"
     },
     "moes/Moes_TZ3000_TS0012_2_gang_switches.json": {
       "uuid": "89577801-c79d-48c7-b108-d8d0ff2453cc",
@@ -522,7 +522,7 @@
     },
     "osram/classic_a60_rgbw.json": {
       "uuid": "e978fda6-0051-4150-9496-f9b2e222f1ef",
-      "hash": "e82141320937b1dcce10201dc3956155b6b8feabf9aad61ca226218ed3d75788"
+      "hash": "4c733725028144e29f772a98b164fe065c73e8d09abfa47f9300aea4320ca22c"
     },
     "osram/classic_a60_tw.json": {
       "uuid": "f453dc2c-0800-4c5e-82ea-1fb20332cfca",
@@ -530,7 +530,7 @@
     },
     "osram/classic_a60_w_clear.json": {
       "uuid": "4aa64884-5d06-4381-8983-e267e20a35a8",
-      "hash": "afa0095a198f0cce21baf22039ac6eef68033b2a9efda328c3e0b6d120d69f03"
+      "hash": "a3ceaef2b1530783e17a34ceba946ab5c5f3aa68a2b8e7789e7267e2b57ad51d"
     },
     "osram/classic_b40_tw.json": {
       "uuid": "066c519f-b204-4d7b-9025-87ed85a91508",
@@ -558,35 +558,35 @@
     },
     "philips/light_zb3_C.json": {
       "uuid": "4c7b4e84-0be5-4d9a-8ca9-d16a7cbbd565",
-      "hash": "1acd6b3d43f11c3ddeb17053f614c62d95233597fe1e24b25c79f22048c3d1d1"
+      "hash": "345ba6a25a59eeaa4f5dcd7f2802478fbe7b1e6c1b680e30f60153df3248ad79"
     },
     "philips/light_zb3_C_festavia.json": {
       "uuid": "9f07befa-2e95-4f51-b054-b4919ff53e1f",
-      "hash": "420302e4fa895c111105e4d0a63eae5a974898e60950b420fb58ff60c435791c"
+      "hash": "ada945178db265b9d73af88c8683feeef5ae3007f4143670a49bd01da0ed8c8a"
     },
     "philips/light_zb3_C_gradient.json": {
       "uuid": "ccbc8763-53f9-4ecb-8210-0091ef8b672d",
-      "hash": "30f17d5afe35e57f9e20cd746cb06ff7c092d19563ef9153137d2111fce2d8da"
+      "hash": "6681506726a65ff854f61ff6832d0d1abc1abed15d34bc898196cd451a598e1f"
     },
     "philips/light_zb3_white.json": {
       "uuid": "48dc39d2-8cae-49f7-924c-acdf225c7be5",
-      "hash": "c50e2d08eb33f396e45b5bd9433a00bf51fa6160b7ed59e95617d2ea77f5d97e"
+      "hash": "f181151f2349456638bc9fa65bf17a78402f706251c7cec8e94438c78285b485"
     },
     "philips/light_zb3_white_ambiance.json": {
       "uuid": "598d004f-0628-4906-9fc0-87f23b6e7ca7",
-      "hash": "039319d339e290aec1bb00510c2472eb29a588d138a43a20197d823522f63470"
+      "hash": "df9cd743260081108626c411e92784eadb11a3382a1b5825f5050099c71443aa"
     },
     "philips/light_zll_A.json": {
       "uuid": "68830985-fe1d-49c0-ae3c-9a93dc3f9178",
-      "hash": "832f85c1cb0d42c407ed44a5422b1dd550586407ec4865cf413fab7a098d476f"
+      "hash": "7d19159b5cdbbbfbc1e058e011e8363ebd6d6b69e429edc0674f11e59dd2ea7f"
     },
     "philips/light_zll_B.json": {
       "uuid": "f65070a3-b78e-4764-989c-fc024bbfe175",
-      "hash": "23cf6c003df4f5bfe122cce1996f30364f4724651ec9c5ca3e9fc256e49c84d4"
+      "hash": "19dd7ac0ce87d571528c1367ad22d36b9c68b9944328a6d45fcf0604ad2827ed"
     },
     "philips/light_zll_C.json": {
       "uuid": "28e57479-80de-4b96-9234-ec129399eb0d",
-      "hash": "a55118374b3e703ff3a73ac8fcaf0145380d33d6e67dd2ec69acf18e14f73a60"
+      "hash": "ede1f3cfbde8bd978f15090ef62bb5f04b98175536b09a2f3d25f1a329c87c4d"
     },
     "philips/lom007_smart_plug.json": {
       "uuid": "adbcf627-0eb4-422d-8df5-8c4d7c918d33",
@@ -594,7 +594,7 @@
     },
     "philips/rdm001_wall_switch_module.json": {
       "uuid": "c3419c59-78f5-432d-b333-b4bc17033422",
-      "hash": "d917e01dbceee8c6f9b0624d7d951fb9c661dfd368ed0759dfa8ffbc60f751b1"
+      "hash": "569f3a23880e8f91b81391b78e26ab45554474561e6e7e2c8d9ae60fdacf3170"
     },
     "philips/rdm002_tap_dial_switch.json": {
       "uuid": "3e8edbfc-c46e-46e8-a887-6eab728f60f9",
@@ -602,7 +602,7 @@
     },
     "philips/rom001_smart_button.json": {
       "uuid": "2ba402d3-415c-42b5-ac66-e3c1734f19a2",
-      "hash": "6116b7642149d4065e1937461f04edb31a34ed3e5f2a94a0471f8bc423d20d81"
+      "hash": "7683ac63f3105afd055758b0e4ef33d09aae075d4eb899597bebee886740af37"
     },
     "philips/rwl022_dimmer_switch.json": {
       "uuid": "c36264c5-f06b-41ca-9277-850441a14d8c",
@@ -690,7 +690,7 @@
     },
     "sonoff/snzb-02-multisensor.json": {
       "uuid": "200ca264-5bfb-4207-92bf-6f71e4936674",
-      "hash": "dd0b3f83d050b80ac04669aefa6a1da2173b687c0471cf3b822465f253f75cf5"
+      "hash": "3db0dd000db3102b3178d2386d902e3fe0207512332ce34ec26bb6a4076041b8"
     },
     "sonoff/zbmini-l_relay.json": {
       "uuid": "868bf9b6-6e14-47ef-a066-46f858aafa06",
@@ -782,11 +782,11 @@
     },
     "tuya/_TZ3000_TS0011_1gang_switch_module.json": {
       "uuid": "cd20e1ab-3471-4975-b8ac-30c86014a49c",
-      "hash": "2cd5aea57f611ddd0365b6df3ad157961ffc391121031bae568eb6dd18838a1b"
+      "hash": "fe73777edb7bc493d33ba5c9904809c6d3b6277c5b103e2ab7b6983790ec1b77"
     },
     "tuya/_TZ3000_TS0041_1gang_bat.json": {
       "uuid": "53fea0c7-1dc3-4c8e-b06d-f4a4e2f7c140",
-      "hash": "7f20d803bb377c4a6288f8ccf78227e234e13b72be036390ad83fd77021ccf24"
+      "hash": "000053bc2c3c03b1920609a099d8e159696ee5ef1baf9a334efef657a61b1743"
     },
     "tuya/_TZ3000_TS0042_2gang_remote.json": {
       "uuid": "43664d41-d103-4047-9be8-8c431b7a9fba",
@@ -814,11 +814,11 @@
     },
     "tuya/_TZ3000_TS0203_door_sensor.json": {
       "uuid": "720d114f-cf30-4951-9482-1244cdc67a23",
-      "hash": "ae88835e73d8ce7481c1705a29f73bf75ea6297341a5b1c64628396ed71afafe"
+      "hash": "5f809dce9d1c70074fb8dee3ce71c43764362c4320132a2d49f5cdc01ef17e87"
     },
     "tuya/_TZ3000_TS0207_water_leak_sensor.json": {
       "uuid": "af8e14bd-c03e-4edb-b5ae-5a696f98cd62",
-      "hash": "9401d17605ed01a3218f8337efb405678656d8a35a58bcbf90ef1486b5c8def3"
+      "hash": "57002f967b1a98b16994138ed186eb0c8687aa4d5cc901f8d26ee14d4181a11b"
     },
     "tuya/_TZ3000__TS0207_range_extender.json": {
       "uuid": "cfb37e1b-2deb-4e0f-b74c-cac538b77676",
@@ -846,7 +846,7 @@
     },
     "tuya/_TZ3000_ja5osu5g_smart_button.json": {
       "uuid": "0e162713-2745-4678-9f8d-2a0e53079b4b",
-      "hash": "f226f2d1e1c37085ae6b86aed4a1aef38def4edc179c7a06386f397e4f533776"
+      "hash": "2720bc77ede1fba6627139bf9b2104e18eb60e965b75aa16b4d0d25afc46c973"
     },
     "tuya/_TZ3000_jl7qyupf_2gangs_switch_locked.json": {
       "uuid": "d5c449c6-a013-468d-9f6e-242902b41799",
@@ -894,7 +894,7 @@
     },
     "tuya/_TZE200_TS0601_humidity_temp.json": {
       "uuid": "3d1d0d79-a047-4334-8739-bddf918ffab1",
-      "hash": "6ddbefb87ed73c63e18f8a14069def41d778db8d7b0c49fb161dadf26dd56e73"
+      "hash": "63abb5f704d53cbd11783657cc8cdc75dbcf4405ce8ff4068cb88bd9f8402b29"
     },
     "tuya/_TZE200_TS0601_mmWave_Radar.json": {
       "uuid": "636c3476-f37f-4942-bbc8-8592eac08799",
@@ -906,7 +906,7 @@
     },
     "tuya/_TZE200_TS0601_trv.json": {
       "uuid": "c5444e54-3a36-4e26-a2ef-25f9e7d98d8b",
-      "hash": "366aeec468c313dd4d28a78293757e779131882fbeaf6282d735fffad0d884e0"
+      "hash": "47cf1c644ca860ab3ff2eb31b2d990024976b12e94db58fda39d8a6f72a11091"
     },
     "tuya/_TZE200_amp6tsvy_wired_switch_1gang.json": {
       "uuid": "9603c7c4-c220-44d7-96d2-08d8b75c931b",
@@ -914,7 +914,7 @@
     },
     "tuya/_TZE200_bjawzodf_humidity_temp.json": {
       "uuid": "134668f8-7d5d-440e-b593-9842d738a6d0",
-      "hash": "9ef5bbd3bdddc9fd39f3e4ec134819af689eb433e874b36da36bc445458199dd"
+      "hash": "9d3d20437f3e0070de6cb60c6bf9d79b3e02b9c332326b46bac0062881b8017f"
     },
     "tuya/_TZE200_byzdayie_din_enrgy_meter.json": {
       "uuid": "787a040b-d09b-4152-b39c-fb8188fbeff3",
@@ -990,11 +990,11 @@
     },
     "ubisys/j1_5502.json": {
       "uuid": "5086a3d3-bad9-4cdf-8476-6512de47cbd9",
-      "hash": "782a949593a43592606672274d5b80844bd519bc98cb752185ea8f5d1e965076"
+      "hash": "067879caf6d0271572a9e6d32ef9e3475e7214b9d2f6ebd47e73f4ff96fcd007"
     },
     "ubisys/j1r_5602.json": {
       "uuid": "7bb3a125-b97c-47a1-b3f9-44b78ac045be",
-      "hash": "605263ca95a16470dcf0e32b1fad06bef7aaff11da7330faa446c3efb860cf0c"
+      "hash": "2f2ee2bf02be434efb288d054e5137050da959ed371fe555fae945603c21f254"
     },
     "ubisys/ld6.json": {
       "uuid": "598ae610-02e4-4ac0-a92a-12e9baf3272f",
@@ -1002,15 +1002,15 @@
     },
     "ubisys/s1_5501_s1r_5601.json": {
       "uuid": "d8f19e20-0cea-4908-9a34-ef60d56a78fc",
-      "hash": "1630b058f710bfb4f0a75db529f4f7aec3f96bee233e05da3debc9b3e34942eb"
+      "hash": "f78493ccf30867f816a904d0be9760615d5a1b0ed98ecb45a6b4f340b83bd3df"
     },
     "ubisys/s2_5502.json": {
       "uuid": "89b4243d-b5fd-41ff-a7e2-06310bd23961",
-      "hash": "eac32ea62cfb163e5b59a281fcfe05f81735910d43eb48876d04d383b9d085cb"
+      "hash": "236ca58cec6ca3aead034740b95bc3e0e117c7e394e2ab7daf19346d2546d69e"
     },
     "ubisys/s2r_5602.json": {
       "uuid": "d74f4575-d024-410b-b072-750792e1f833",
-      "hash": "7eee2d071fef78142b89229f044ce736050468429cae2fe20e6d98fe868134cc"
+      "hash": "a36bf37df3494f9082720bdec2f11ba30f18f82fa2d09bf659d5e0e0c36038a5"
     },
     "wattle/hc-slm-1_doorlock.json": {
       "uuid": "17257e47-e873-4465-921b-64d7c783a997",
@@ -1114,7 +1114,7 @@
     },
     "xiaomi/lumi_vibration_aq1.json": {
       "uuid": "1a05a528-dd3d-40a7-88d2-78272224771b",
-      "hash": "1ddd12becdd82fea5d892546396756449a6fd5af656b388d4bf1cb7630d03e6f"
+      "hash": "1c100949b68cf73399b9a15537cf6ca7f2840de35f0f4fcd51be203f507eb0b4"
     },
     "xiaomi/xiaomi_gzcgq01lm_light_sensor.json": {
       "uuid": "cd01d926-7577-4416-a075-1cc92b0717c3",
@@ -1174,7 +1174,7 @@
     },
     "xiaomi/xiaomi_mfkzq12lm_t1_pro_cube.json": {
       "uuid": "b2b760b1-3b3f-44f3-b6be-e6fc3c5e83a6",
-      "hash": "7b005d54d6061960b76ae4c2e0f53297bed4717b2db7699e16ac4747acd65892"
+      "hash": "99e62b756daf0ec6caba91357466bd2187833545108f5f8c593f07eddf904a61"
     },
     "xiaomi/xiaomi_qbkg03lm_switch.json": {
       "uuid": "3c1928a5-31f8-466f-805e-418415c31ec4",
@@ -1202,7 +1202,7 @@
     },
     "xiaomi/xiaomi_ssm-u01_t1_switch.json": {
       "uuid": "b467336b-b8a1-490d-b6ee-b17a35a2a8e3",
-      "hash": "d5a6e339a6893cb44577f4c2606e46060a66d837f5e1a456170f2791a1db7e58"
+      "hash": "228821fd74022b0666367a17db10c8986e31b337a95addf0b731a11736f7cf3b"
     },
     "xiaomi/xiaomi_ssm-u02_t1_switch.json": {
       "uuid": "0c3e7026-ccdb-4239-8e63-088ee8aa5562",
@@ -1210,7 +1210,7 @@
     },
     "xiaomi/xiaomi_wrs-r02_h1_switch.json": {
       "uuid": "3f79a801-d4a9-4006-aa17-01635d79e779",
-      "hash": "3b6f2dd5e376a778d97aef7305eca2d9867527f09557cd9d9d207e1d23a156a9"
+      "hash": "ac8986056000de72a9837b3a2628e5e1fca42cc64b865a0b2f9f69f45c15a481"
     },
     "xiaomi/xiaomi_ws-euk01_h1_switch.json": {
       "uuid": "b30c72ae-754a-4114-b8e4-69bb0e61ea09",
@@ -1270,7 +1270,7 @@
     },
     "ikea/parasoll_open_close_sensor.json": {
       "uuid": "8bd9a1a6-1d18-42c1-84c9-e24aac229291",
-      "hash": "525c16931213a6332f7d51fb7ea46a84fdb91c3ced5136e205aa835969694a9f"
+      "hash": "03144b0cc7d69a591504707c017b6dfede6764e7a52f00a9b210558163a6e71e"
     },
     "ikea/tradfri_bulb_e14_ww_clear_250lm.json": {
       "uuid": "7dce06a1-ef0e-4f55-a0bc-c9bb40dcf00c",
@@ -1279,6 +1279,178 @@
     "sonoff/snzb-04_open_close_sensor.json": {
       "uuid": "9f073efe-e8e6-41af-8292-6c5a1fc0a656",
       "hash": "dda8491dd8693b1bd415aa45409575366708a54262ff4fbb556f83612d7cbff9"
+    },
+    "bosch/bmct-slz_shutter_light_control2.json": {
+      "uuid": "e95dc73e-25f3-4f64-bee8-c6c7547f5ac1",
+      "hash": "f0dd5b65b86e696153321291aa299187fac2ee5d5707f9e594d348c47d14a3b9"
+    },
+    "bosch/room_thermostat2.json": {
+      "uuid": "6c293f23-fc26-45ab-8f18-189f0f5a12cf",
+      "hash": "d71a9026d45fe7a73d6421615435578c9241616139d330ef74e94b0badbb8eed"
+    },
+    "bosch/room_thermostat2_230V.json": {
+      "uuid": "4c4ca4e1-5d8c-4925-8581-46ef46ecf8ac",
+      "hash": "4dd6380efe0ec9bd5031b833ed93af6fe29fe8674f059ff58f6780116f5b2303"
+    },
+    "develco/hmszb_temp_hum_sensor.json": {
+      "uuid": "62c3a064-7c31-47a8-ab6b-079f6be346e9",
+      "hash": "d802d01c1e103ffa2a8345d863b8265c563ed7744ae4febcbbb0fc4dc3e92b56"
+    },
+    "dresden_elektronik/lighting_switch.json": {
+      "uuid": "9e932039-d6fb-47f6-b20f-8a9025ce526a",
+      "hash": "751e108d608c440404f60bb6f73d58d7e86ca2beb8642c6626fe6ce650917013"
+    },
+    "dresden_elektronik/scene_switch.json": {
+      "uuid": "f39f7ad3-e135-4d10-8a79-da6019a44eee",
+      "hash": "0853b62fe7a078d219e5abe9248a54ecb641aed198c37bf16f20f0bc2622a1dd"
+    },
+    "frient/hmszb_temp_hum_sensor.json": {
+      "uuid": "09588cf3-4d73-4cc2-a346-0e4b4917d189",
+      "hash": "9971e9c05e20026a833c9c0f989e39bffe46a8f9a437b3774dc52ce4efe50f97"
+    },
+    "greeble/jz-rgbw-z01.json": {
+      "uuid": "406a0523-805a-4809-ae68-5127c039036b",
+      "hash": "89f51518721828305aa6100dddb9f667a764477e023f1a526e5af6f76518d350"
+    },
+    "heiman/hs1rc_keyfob.json": {
+      "uuid": "dafd6463-3d71-4f3c-94b3-0dda341439a0",
+      "hash": "bf7021b43181cae47a8658ad1cf301ff28f942fffbfe6c13a4269316ef71616b"
+    },
+    "icasa/ICZB-IW11D.json": {
+      "uuid": "91fe61a0-e500-460b-b768-128d02245d61",
+      "hash": "e0ffcf0d80df65a1c2c4855ceb29b6ee02d5694f9f0fa564222b599984ef9387"
+    },
+    "ikea/badring_water_leak_sensor.json": {
+      "uuid": "03abf67b-8316-4a20-b76f-b625c00182f2",
+      "hash": "f00f9a01d190207a5c70b78756f558bd9c6d7bb9967aa47d277023ca08641416"
+    },
+    "ikea/ormanas_led_strip.json": {
+      "uuid": "25150222-d44a-4ac6-af9a-53c45fa3288d",
+      "hash": "bed6a128a8e0a4d8cba90bc5726e68b4702f6d0c958572c6afb7e64908ac110c"
+    },
+    "ikea/somrig_shortcut_button.json": {
+      "uuid": "f50454cb-c317-43c0-b785-2d7483e05bab",
+      "hash": "e8a8dac99218feecf855e9ce69bcaac38c862da1486af9850fb1d9076b213080"
+    },
+    "ikea/tradfri_bulb_e14_w_opal_400lm.json": {
+      "uuid": "881a55ca-9eda-42ff-94f0-a1bdd1917bc2",
+      "hash": "c97cd972c21e7aee376c9ee465c2906edcd50f451f1b94ee853fe622ed6048de"
+    },
+    "ikea/tradfri_driver_30w.json": {
+      "uuid": "557d7ef4-af28-4d9b-9786-9cd43b11d39f",
+      "hash": "4726a1be0589bb6e53c0a15716d90b1312ad0d3b0c547b63e28ba4d601af6f38"
+    },
+    "ikea/tradfri_on_off_switch_old_fw.json": {
+      "uuid": "b9109410-6c75-4f90-b66e-6c483f3a088b",
+      "hash": "2e961659e136682d3aa8ba720c15a2fb5426f256737470de9068b06d833d87a7"
+    },
+    "ikea/vallhorn_wireless_motion_sensor.json": {
+      "uuid": "e58144d0-f0a7-4845-af0d-4f41f9981ac8",
+      "hash": "7590955436c78f5ecd33afc3509197d737447b90dd22311cfdd08cac462e30bc"
+    },
+    "innr/sp_240.json": {
+      "uuid": "3289c07a-52c5-481c-adf6-4db8086db42f",
+      "hash": "f9b69705de78cc8be9c0bdd1f07d72adf4554757f8795614a70332344e020e62"
+    },
+    "mhcozy/ts0004.json": {
+      "uuid": "2b61775c-cd6f-4175-af04-e66419bbe6a9",
+      "hash": "2e95c4447736ff37b9eb99b1a0b8ba506e4fef56945f84f2aaf068ea6ac2d16f"
+    },
+    "moes/Moes_MS-105-M_1_gang_dimmer_module.json": {
+      "uuid": "7403fd71-e377-4a2f-a4ae-21ec8cd8f3bf",
+      "hash": "64a606933dc70e6e1a8a9d67d5fa208fcc43832c03722232f438383801d3c584"
+    },
+    "moes/Moes_ZM-105-M_1_gang_dimmer.json": {
+      "uuid": "89e4f947-de38-4b2e-b4e2-f260c7a8e398",
+      "hash": "e453bd7b8e1bedd377f69bd28b0af8e923bd350a6e353bb232799008ca8fc25d"
+    },
+    "namron/4512762_open_close_sensor.json": {
+      "uuid": "33316cbd-04ed-4026-a6d4-a4e88d59ff9c",
+      "hash": "bb099d9424517019e3b41797b61fd2f10d1ec5a62747820b225dc00112eeb394"
+    },
+    "osram/classic_a60_fil_dim_t.json": {
+      "uuid": "c428f5ea-7ab0-440e-8c51-6be27ae6fac4",
+      "hash": "95ed67aeb98a563defa49d4285645d82f267608d885214f4dd9cf63e2f96de03"
+    },
+    "osram/par16_50_tw.json": {
+      "uuid": "0ea54a06-26db-4d90-a946-45e4ad01ecaa",
+      "hash": "15a79ca87b2dc5eab10dd521709c495dfcd5a792015cacf2ab57dd3b37fa6180"
+    },
+    "osram/plug_01.json": {
+      "uuid": "203c12e3-c738-407c-ba76-6e9f05b29b1f",
+      "hash": "abfb0ef5d08f986118c302f1dc3ff21218b2384feb4c090dd5825cc94f4fa2f1"
+    },
+    "philips/light_zll_white_ambiance.json": {
+      "uuid": "65682da9-26c1-4d1a-b938-f86bdf77791c",
+      "hash": "ca70e84cae7d59368f447ad2de81bdf14f81f288f0c241de236fa65629d0f19e"
+    },
+    "sonoff/ck-bl702-swp-01(7020)_plug.json": {
+      "uuid": "7e714ba3-76d0-436d-bec0-c9257a7031c8",
+      "hash": "e1ab76561a9376798fc9f9c18b71df5313284f69d1f49a8efae87187324810e9"
+    },
+    "sonoff/snzb-01p_switch_wireless.json": {
+      "uuid": "c6d6d426-317a-4c7d-a025-49f89055f9dd",
+      "hash": "b5680a772cd08a7c5e29aedb9c255db1e1685ad735d5c3f579b0813fb1313a4c"
+    },
+    "sonoff/snzb-06p.json": {
+      "uuid": "f24c6a4f-b589-49f9-9cdf-637f21a6f495",
+      "hash": "7c8724c040ac2c1251ab5a3a58d7477bbdfece967bcda129e4513309cec619b2"
+    },
+    "sonoff/trvzb-thermostat.json": {
+      "uuid": "bc8f0343-2fc6-4455-b14f-053a5830087d",
+      "hash": "6df066dd2c483c60afc80a39ddb8d6617ee160434ab31ab3a13edf1e3d6f9be4"
+    },
+    "sunricher/SR-ZG9030A-MW.json": {
+      "uuid": "8ce901bd-167b-477a-8ec6-8c439761d9e1",
+      "hash": "513241fa054c17dddf4bad724cb2f73b36fb830c0f4faa69a699c2fa9ab01441"
+    },
+    "tuya/_TZ3000_2channel_module.json": {
+      "uuid": "00195ff1-f2b8-44f8-8143-8aa610102f43",
+      "hash": "d4c1b63ecac0c5a5ec7fc0618cdcc3421512422beac1d5c3f99f2ee3464cf351"
+    },
+    "tuya/_TZ3000_TS011F_smart_plug.json": {
+      "uuid": "01e52f1b-ad70-4d8a-b4f9-9000dd249ed8",
+      "hash": "d4d54e0467cf6e3cbdbfc7f0d15f028476352a5ca02e91fef59fd52b2879eafe"
+    },
+    "tuya/_TZ3000_TS0210_vibration_sensor.json": {
+      "uuid": "0f31a61e-2e45-4c75-8099-119cb41defb0",
+      "hash": "07e3220b7933fea7a5a8b457d4d2ec2b4b152d05bc6acb1282788cd9ec18370e"
+    },
+    "tuya/_TZ3210_up3pngle_TS0205_smoke_sensor.json": {
+      "uuid": "71cf5b38-50b3-4bd3-b96d-16e3d16af12d",
+      "hash": "e2d2d2b38dca03146abcd1fffa9293c47ebad1fb8992309081b57f759104b769"
+    },
+    "tuya/_TZB000_42ha4rsc_window_blinds.json": {
+      "uuid": "a8861730-8422-48d2-aa83-8d95aa7d688b",
+      "hash": "053a276383144432e56c762b2083dc1cd9738a93672663c95a196d2293a3f0bc"
+    },
+    "tuya/_TZE200_ztvwu4nk_thermostat.json": {
+      "uuid": "f29c70a8-a18e-4e1f-be70-07f2d13dbbc9",
+      "hash": "5bccbbc2b31dc46917093c71591ba0b2f717df7d85f8a7a9c9ab24002743e864"
+    },
+    "tuya/_TZE204_ac0fhfiq_energy_meter.json": {
+      "uuid": "f7699af6-da76-4dc7-8f5f-888f43d3f508",
+      "hash": "146f27454538ae72f5017368d10ec6f189edab71cc4c97519a5363edd3989b40"
+    },
+    "ubisys/h1.json": {
+      "uuid": "4e34178b-c783-4506-ad18-fd3ccd6a4c44",
+      "hash": "821c36a583eb6eaa0a2d7af421792a038d7d781de8efe9a0b64c0102bff17fe9"
+    },
+    "xiaomi/xiaomi_dw-s03d_t1_openclose_sensor.json": {
+      "uuid": "446f5d27-8925-4026-8cfb-2b01126d8e05",
+      "hash": "498aa6d946a8dce73d81c6401c3a0879ebaa8c7641c7bdb19fcb2caa529f20b3"
+    },
+    "xiaomi/xiaomi_mho-c401n_temp_hum_sensor.json": {
+      "uuid": "133687e7-9728-4a0c-901f-f69fdc158e38",
+      "hash": "f0d8a2b175c082fd8fbfbad3484c1213f5d611b4ec0653b28ef080d749529ea2"
+    },
+    "xiaomi/xiaomi_sjcgq13lm_e1_wleak_sensor.json": {
+      "uuid": "3309a1e4-99b8-4a35-ae26-fa3502a9455b",
+      "hash": "2e2c1ded60f55802a5f4e8c4d5e3308146d9873616596a94caa31d6a291260dc"
+    },
+    "xiaomi/xiaomi_wb-r02d_t1_wireless_mini_switch.json": {
+      "uuid": "1fa166f9-0b6f-410f-9f6f-7f503e4dcb93",
+      "hash": "a191369d19c8fe616a1e32c0ea12b02a4a6379fe6cc43780a6b679f6184768d9"
     }
   }
 }

@@ -2,14 +2,15 @@
   "schema": "devcap1.schema.json",
   "manufacturername": [
     "_TZ3000_okaz9tjs",
-    "_TZ3000_dksbtrzs"
+    "_TZ3000_dksbtrzs",
+    "_TZ3000_gvn91tmx"
   ],
   "modelid": [
+    "TS011F",
     "TS011F",
     "TS011F"
   ],
   "product": "Smart Plug Power Monitor",
-  "vendor": "Lonsonho",
   "sleeper": false,
   "status": "Gold",
   "subdevices": [
@@ -337,6 +338,6 @@
       ]
     }
   ],
-  "uuid": "b0c66a92-804f-4ae0-9a1f-87020dafd6c0",
+  "uuid": "01e52f1b-ad70-4d8a-b4f9-9000dd249ed8",
   "version_deconz": ">2.19.3"
 }

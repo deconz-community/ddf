@@ -1,14 +1,22 @@
 {
   "schema": "devcap1.schema.json",
-  "manufacturername": "$MF_LUMI",
-  "modelid": "lumi.magnet.agl02",
-  "vendor": "Xiaomi",
-  "product": "Aqara T1 open/close sensor MCCGQ12LM",
+  "manufacturername": [
+    "_TZ3000_bmfw9ykl",
+    "_TZ3000_lzdjjfss",
+    "_TZ3000_lqpt3mvr"
+  ],
+  "modelid": [
+    "TS0210",
+    "TS0210",
+    "TS0210"
+  ],
+  "vendor": "Tuya",
+  "product": "Moes vibration sensor",
   "sleeper": true,
   "status": "Gold",
   "subdevices": [
     {
-      "type": "$TYPE_OPEN_CLOSE_SENSOR",
+      "type": "$TYPE_PRESENCE_SENSOR",
       "restapi": "/sensors",
       "uuid": [
         "$address.ext",
@@ -22,8 +30,7 @@
         "in": [
           "0x0000",
           "0x0001",
-          "0x0500",
-          "0xFCC0"
+          "0x0500"
         ]
       },
       "items": [
@@ -37,30 +44,16 @@
           "name": "attr/lastseen"
         },
         {
-          "name": "attr/manufacturername",
-          "awake": true
+          "name": "attr/manufacturername"
         },
         {
-          "name": "attr/modelid",
-          "awake": true
+          "name": "attr/modelid"
         },
         {
           "name": "attr/name"
         },
         {
-          "name": "attr/swversion",
-          "awake": true,
-          "parse": {
-            "at": "0x00f7",
-            "ep": 1,
-            "eval": "Item.val = '0.0.0_' + ('0000' + (Attr.val & 0xFF).toString()).slice(-4)",
-            "fn": "xiaomi:special",
-            "idx": "0x08",
-            "mf": "0x115f"
-          },
-          "read": {
-            "fn": "none"
-          }
+          "name": "attr/swversion"
         },
         {
           "name": "attr/type"
@@ -72,17 +65,20 @@
           "name": "config/battery",
           "awake": true,
           "parse": {
-            "at": "0x00f7",
+            "at": "0x0021",
+            "cl": "0x0001",
             "ep": 1,
-            "fn": "xiaomi:special",
-            "idx": "0x01",
-            "mf": "0x115f",
-            "script": "xiaomi_battery.js"
-          }
+            "eval": "Item.val = Attr.val / 2"
+          },
+          "default": 0
+        },
+        {
+          "name": "config/duration",
+          "default": 1
         },
         {
           "name": "config/enrolled",
-          "default": 1
+          "public": false
         },
         {
           "name": "config/on"
@@ -97,11 +93,40 @@
           "name": "state/lastupdated"
         },
         {
-          "name": "state/open"
+          "name": "state/lowbattery",
+          "awake": true
+        },
+        {
+          "name": "state/presence",
+          "awake": true,
+          "default": false
         }
       ]
     }
   ],
-  "uuid": "4f50f8b9-aa97-45a5-ad37-366882331b71",
+  "bindings": [
+    {
+      "bind": "unicast",
+      "src.ep": 1,
+      "dst.ep": 1,
+      "cl": "0x0001",
+      "report": [
+        {
+          "at": "0x0021",
+          "dt": "0x20",
+          "min": 60,
+          "max": 3600,
+          "change": "0x00000001"
+        }
+      ]
+    },
+    {
+      "bind": "unicast",
+      "src.ep": 1,
+      "dst.ep": 1,
+      "cl": "0x0500"
+    }
+  ],
+  "uuid": "0f31a61e-2e45-4c75-8099-119cb41defb0",
   "version_deconz": ">2.19.3"
 }

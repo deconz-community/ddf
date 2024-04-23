@@ -1,9 +1,15 @@
 {
   "schema": "devcap1.schema.json",
-  "manufacturername": "Develco Products A/S",
-  "modelid": "HMSZB-110",
+  "manufacturername": [
+    "frient A/S",
+    "frient A/S"
+  ],
+  "modelid": [
+    "HMSZB-110",
+    "HMSZB-120"
+  ],
   "vendor": "Develco Products",
-  "product": "HMSZB-110 temp./hum. sensor",
+  "product": "Temperature/humidity sensor HMSZB-110/HMSZB-120",
   "sleeper": true,
   "status": "Gold",
   "subdevices": [
@@ -236,6 +242,6 @@
       ]
     }
   ],
-  "uuid": "da754249-db32-4bad-91e3-a4bb658c781b",
+  "uuid": "09588cf3-4d73-4cc2-a346-0e4b4917d189",
   "version_deconz": ">2.19.3"
 }
