@@ -1,0 +1,84 @@
+{
+  "schema": "devcap1.schema.json",
+  "manufacturername": [
+    "_TZ3000_txpirhfq",
+    "_TZ3000_qmi1cfuq",
+    "_TZ3000_ji4araar",
+    "_TZ3000_v7sopte0",
+    "_TYZB01_qeqvmvti",
+    "_TZ3000_7jsk6lxz",
+    "_TZ3000_hhiodade"
+  ],
+  "modelid": [
+    "TS0011",
+    "TS0011",
+    "TS0011",
+    "TS0011",
+    "TS0011",
+    "TS0011",
+    "TS0011"
+  ],
+  "product": "1 gang switch module",
+  "sleeper": false,
+  "status": "Gold",
+  "subdevices": [
+    {
+      "type": "$TYPE_ON_OFF_OUTPUT",
+      "restapi": "/lights",
+      "uuid": [
+        "$address.ext",
+        "0x01"
+      ],
+      "items": [
+        {
+          "name": "attr/id"
+        },
+        {
+          "name": "attr/lastannounced"
+        },
+        {
+          "name": "attr/lastseen"
+        },
+        {
+          "name": "attr/manufacturername"
+        },
+        {
+          "name": "attr/modelid"
+        },
+        {
+          "name": "attr/name"
+        },
+        {
+          "name": "attr/swversion",
+          "parse": {
+            "fn": "zcl:attr",
+            "ep": 1,
+            "cl": "0x0000",
+            "at": "0x0001",
+            "script": "tuya_swversion.js"
+          },
+          "read": {
+            "fn": "zcl:attr",
+            "ep": 1,
+            "cl": "0x0000",
+            "at": "0x0001"
+          }
+        },
+        {
+          "name": "attr/type"
+        },
+        {
+          "name": "attr/uniqueid"
+        },
+        {
+          "name": "state/on"
+        },
+        {
+          "name": "state/reachable"
+        }
+      ]
+    }
+  ],
+  "uuid": "cd20e1ab-3471-4975-b8ac-30c86014a49c",
+  "version_deconz": ">2.19.3"
+}
