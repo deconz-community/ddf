@@ -7,7 +7,7 @@
     "sync-ddf": "ts-node-esm ./scripts/sync-ddf.ts"
   },
   "dependencies": {
-    "@deconz-community/cli": "^1.8.0",
+    "@deconz-community/cli": "^1.9.0",
     "crypto-js": "^4.2.0",
     "degit": "^2.8.4",
     "fast-glob": "^3.3.2",
