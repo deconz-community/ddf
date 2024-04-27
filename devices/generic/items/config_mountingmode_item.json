@@ -1,8 +1,0 @@
-{
-  "schema": "resourceitem1.schema.json",
-  "id": "config/mountingmode",
-  "datatype": "Bool",
-  "access": "RW",
-  "public": true,
-  "description": "Determines if the device has entered the mounting state."
-}
